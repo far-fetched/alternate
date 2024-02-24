@@ -1,0 +1,693 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/pjoter/Dokumenty/elixir/alternate/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/e00b6627/
+$(BUILD)	deps/circuits_gpio/Makefile	/^$(PREFIX) $(BUILD):$/;"	t
+$(BUILD)/%.o	deps/circuits_gpio/Makefile	/^$(BUILD)\/%.o: c_src\/%.c$/;"	t
+$(NIF)	deps/circuits_gpio/Makefile	/^$(NIF): $(OBJ)$/;"	t
+$(OBJ)	deps/circuits_gpio/Makefile	/^$(OBJ): $(HEADERS) Makefile$/;"	t
+$(PREFIX)	deps/circuits_gpio/Makefile	/^$(PREFIX) $(BUILD):$/;"	t
+${V}.SILENT	deps/circuits_gpio/Makefile	/^${V}.SILENT:$/;"	t
+A Make compiler for Mix	deps/elixir_make/README.md	/^# A Make compiler for Mix$/;"	c
+Alternate	README.md	/^# Alternate$/;"	c
+Alternate	lib/alternate.ex	/^defmodule Alternate do$/;"	m
+AlternateTest	test/alternate_test.exs	/^defmodule AlternateTest do$/;"	m
+Application	deps/pigpiox/lib/pigpiox/application.ex	/^defmodule Pigpiox.Application do$/;"	m
+Artefact	deps/elixir_make/lib/elixir_make/artefact.ex	/^defmodule ElixirMake.Artefact do$/;"	m
+BUILD	deps/circuits_gpio/Makefile	/^BUILD  = $(MIX_APP_PATH)\/obj$/;"	m
+Backend	deps/circuits_gpio/lib/gpio/backend.ex	/^defmodule Circuits.GPIO.Backend do$/;"	m
+Basic functionality	deps/pigpiox/README.md	/^### Basic functionality$/;"	S	section:Usage""GPIO
+CDev	deps/circuits_gpio/lib/gpio/cdev.ex	/^defmodule Circuits.GPIO.CDev do$/;"	m
+CFLAGS	deps/circuits_gpio/Makefile	/^CFLAGS ?= -O2 -Wall -Wextra -Wno-unused-parameter -pedantic$/;"	m
+CLOCK_MONOTONIC	deps/circuits_gpio/c_src/hal_cdev_gpio_interrupts.c	/^#define CLOCK_MONOTONIC /;"	d	file:
+CONSUMER	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^#define CONSUMER /;"	d	file:
+Can I develop code that uses GPIO on my laptop?	deps/circuits_gpio/README.md	/^### Can I develop code that uses GPIO on my laptop?$/;"	S	section:Circuits - GPIO""FAQ
+Changelog	deps/circuits_gpio/CHANGELOG.md	/^# Changelog$/;"	c
+Changelog	deps/elixir_make/CHANGELOG.md	/^# Changelog$/;"	c
+Checksum	deps/elixir_make/lib/mix/tasks/elixir_make.checksum.ex	/^defmodule Mix.Tasks.ElixirMake.Checksum do$/;"	m
+Circuits - GPIO	deps/circuits_gpio/README.md	/^# Circuits - GPIO$/;"	c
+Command	deps/pigpiox/lib/pigpiox/command.ex	/^defmodule Pigpiox.Command do$/;"	m
+Compiler	deps/elixir_make/lib/elixir_make/compiler.ex	/^defmodule ElixirMake.Compiler do$/;"	m
+Contributions	deps/pigpiox/README.md	/^# Contributions$/;"	c
+Convenience functions	deps/circuits_gpio/README.md	/^## Convenience functions$/;"	s	chapter:Circuits - GPIO
+Diagnostics	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^defmodule Circuits.GPIO.Diagnostics do$/;"	m
+Documentation	deps/elixir_make/README.md	/^## Documentation$/;"	s	chapter:A Make compiler for Mix
+ERL_CFLAGS	deps/circuits_gpio/Makefile	/^ERL_CFLAGS ?= -I$(ERL_EI_INCLUDE_DIR)$/;"	m
+ERL_LDFLAGS	deps/circuits_gpio/Makefile	/^ERL_LDFLAGS ?= -L$(ERL_EI_LIBDIR) -lei$/;"	m
+ElixirMake	deps/elixir_make/lib/mix/tasks/compile.elixir_make.ex	/^defmodule Mix.Tasks.Compile.ElixirMake do$/;"	m
+Enumeration	deps/circuits_gpio/README.md	/^## Enumeration$/;"	s	chapter:Circuits - GPIO
+Examples	deps/circuits_gpio/README.md	/^## Examples$/;"	s	chapter:Circuits - GPIO
+FAQ	deps/circuits_gpio/README.md	/^## FAQ$/;"	s	chapter:Circuits - GPIO
+GPIO	deps/circuits_gpio/README.md	/^## GPIO$/;"	s	chapter:Circuits - GPIO
+GPIO	deps/circuits_gpio/lib/gpio.ex	/^defmodule Circuits.GPIO do$/;"	m
+GPIO	deps/pigpiox/README.md	/^## GPIO$/;"	s	chapter:Usage
+GPIO	deps/pigpiox/lib/pigpiox/gpio.ex	/^defmodule Pigpiox.GPIO do$/;"	m
+GPIO Specs	deps/circuits_gpio/README.md	/^## GPIO Specs$/;"	s	chapter:Circuits - GPIO
+GPIOEVENT_EVENT_FALLING_EDGE	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOEVENT_EVENT_FALLING_EDGE /;"	d
+GPIOEVENT_EVENT_RISING_EDGE	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOEVENT_EVENT_RISING_EDGE /;"	d
+GPIOEVENT_REQUEST_BOTH_EDGES	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOEVENT_REQUEST_BOTH_EDGES	/;"	d
+GPIOEVENT_REQUEST_FALLING_EDGE	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOEVENT_REQUEST_FALLING_EDGE	/;"	d
+GPIOEVENT_REQUEST_RISING_EDGE	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOEVENT_REQUEST_RISING_EDGE	/;"	d
+GPIOHANDLES_MAX	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOHANDLES_MAX /;"	d
+GPIOHANDLE_GET_LINE_VALUES_IOCTL	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOHANDLE_GET_LINE_VALUES_IOCTL /;"	d
+GPIOHANDLE_REQUEST_ACTIVE_LOW	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOHANDLE_REQUEST_ACTIVE_LOW	/;"	d
+GPIOHANDLE_REQUEST_BIAS_DISABLE	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOHANDLE_REQUEST_BIAS_DISABLE	/;"	d
+GPIOHANDLE_REQUEST_BIAS_PULL_DOWN	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOHANDLE_REQUEST_BIAS_PULL_DOWN	/;"	d
+GPIOHANDLE_REQUEST_BIAS_PULL_UP	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOHANDLE_REQUEST_BIAS_PULL_UP	/;"	d
+GPIOHANDLE_REQUEST_INPUT	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOHANDLE_REQUEST_INPUT	/;"	d
+GPIOHANDLE_REQUEST_OPEN_DRAIN	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOHANDLE_REQUEST_OPEN_DRAIN	/;"	d
+GPIOHANDLE_REQUEST_OPEN_SOURCE	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOHANDLE_REQUEST_OPEN_SOURCE	/;"	d
+GPIOHANDLE_REQUEST_OUTPUT	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOHANDLE_REQUEST_OUTPUT	/;"	d
+GPIOHANDLE_SET_CONFIG_IOCTL	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOHANDLE_SET_CONFIG_IOCTL /;"	d
+GPIOHANDLE_SET_LINE_VALUES_IOCTL	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOHANDLE_SET_LINE_VALUES_IOCTL /;"	d
+GPIOLINE_CHANGED_CONFIG	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIOLINE_CHANGED_CONFIG,$/;"	e	enum:__anonf1826ca00203
+GPIOLINE_CHANGED_RELEASED	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIOLINE_CHANGED_RELEASED,$/;"	e	enum:__anonf1826ca00203
+GPIOLINE_CHANGED_REQUESTED	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIOLINE_CHANGED_REQUESTED = 1,$/;"	e	enum:__anonf1826ca00203
+GPIOLINE_FLAG_ACTIVE_LOW	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOLINE_FLAG_ACTIVE_LOW	/;"	d
+GPIOLINE_FLAG_BIAS_DISABLE	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOLINE_FLAG_BIAS_DISABLE	/;"	d
+GPIOLINE_FLAG_BIAS_PULL_DOWN	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOLINE_FLAG_BIAS_PULL_DOWN	/;"	d
+GPIOLINE_FLAG_BIAS_PULL_UP	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOLINE_FLAG_BIAS_PULL_UP	/;"	d
+GPIOLINE_FLAG_IS_OUT	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOLINE_FLAG_IS_OUT	/;"	d
+GPIOLINE_FLAG_KERNEL	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOLINE_FLAG_KERNEL	/;"	d
+GPIOLINE_FLAG_OPEN_DRAIN	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOLINE_FLAG_OPEN_DRAIN	/;"	d
+GPIOLINE_FLAG_OPEN_SOURCE	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIOLINE_FLAG_OPEN_SOURCE	/;"	d
+GPIO_GET_CHIPINFO_IOCTL	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIO_GET_CHIPINFO_IOCTL /;"	d
+GPIO_GET_LINEEVENT_IOCTL	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIO_GET_LINEEVENT_IOCTL /;"	d
+GPIO_GET_LINEHANDLE_IOCTL	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIO_GET_LINEHANDLE_IOCTL /;"	d
+GPIO_GET_LINEINFO_IOCTL	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIO_GET_LINEINFO_IOCTL /;"	d
+GPIO_GET_LINEINFO_UNWATCH_IOCTL	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIO_GET_LINEINFO_UNWATCH_IOCTL /;"	d
+GPIO_GET_LINEINFO_WATCH_IOCTL	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIO_GET_LINEINFO_WATCH_IOCTL /;"	d
+GPIO_MAX_NAME_SIZE	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIO_MAX_NAME_SIZE /;"	d
+GPIO_NIF_H	deps/circuits_gpio/c_src/gpio_nif.h	/^#define GPIO_NIF_H$/;"	d
+GPIO_V2_GET_LINEINFO_IOCTL	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIO_V2_GET_LINEINFO_IOCTL /;"	d
+GPIO_V2_GET_LINEINFO_WATCH_IOCTL	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIO_V2_GET_LINEINFO_WATCH_IOCTL /;"	d
+GPIO_V2_GET_LINE_IOCTL	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIO_V2_GET_LINE_IOCTL /;"	d
+GPIO_V2_LINES_MAX	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIO_V2_LINES_MAX /;"	d
+GPIO_V2_LINE_ATTR_ID_DEBOUNCE	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_ATTR_ID_DEBOUNCE		= 3,$/;"	e	enum:gpio_v2_line_attr_id
+GPIO_V2_LINE_ATTR_ID_FLAGS	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_ATTR_ID_FLAGS		= 1,$/;"	e	enum:gpio_v2_line_attr_id
+GPIO_V2_LINE_ATTR_ID_OUTPUT_VALUES	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_ATTR_ID_OUTPUT_VALUES	= 2,$/;"	e	enum:gpio_v2_line_attr_id
+GPIO_V2_LINE_CHANGED_CONFIG	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_CHANGED_CONFIG	= 3,$/;"	e	enum:gpio_v2_line_changed_type
+GPIO_V2_LINE_CHANGED_RELEASED	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_CHANGED_RELEASED	= 2,$/;"	e	enum:gpio_v2_line_changed_type
+GPIO_V2_LINE_CHANGED_REQUESTED	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_CHANGED_REQUESTED	= 1,$/;"	e	enum:gpio_v2_line_changed_type
+GPIO_V2_LINE_EVENT_FALLING_EDGE	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_EVENT_FALLING_EDGE	= 2,$/;"	e	enum:gpio_v2_line_event_id
+GPIO_V2_LINE_EVENT_RISING_EDGE	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_EVENT_RISING_EDGE	= 1,$/;"	e	enum:gpio_v2_line_event_id
+GPIO_V2_LINE_FLAG_ACTIVE_LOW	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_FLAG_ACTIVE_LOW		= _BITULL(1),$/;"	e	enum:gpio_v2_line_flag
+GPIO_V2_LINE_FLAG_BIAS_DISABLED	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_FLAG_BIAS_DISABLED		= _BITULL(10),$/;"	e	enum:gpio_v2_line_flag
+GPIO_V2_LINE_FLAG_BIAS_PULL_DOWN	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_FLAG_BIAS_PULL_DOWN	= _BITULL(9),$/;"	e	enum:gpio_v2_line_flag
+GPIO_V2_LINE_FLAG_BIAS_PULL_UP	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_FLAG_BIAS_PULL_UP		= _BITULL(8),$/;"	e	enum:gpio_v2_line_flag
+GPIO_V2_LINE_FLAG_EDGE_FALLING	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_FLAG_EDGE_FALLING		= _BITULL(5),$/;"	e	enum:gpio_v2_line_flag
+GPIO_V2_LINE_FLAG_EDGE_RISING	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_FLAG_EDGE_RISING		= _BITULL(4),$/;"	e	enum:gpio_v2_line_flag
+GPIO_V2_LINE_FLAG_EVENT_CLOCK_HTE	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_FLAG_EVENT_CLOCK_HTE	= _BITULL(12),$/;"	e	enum:gpio_v2_line_flag
+GPIO_V2_LINE_FLAG_EVENT_CLOCK_REALTIME	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_FLAG_EVENT_CLOCK_REALTIME	= _BITULL(11),$/;"	e	enum:gpio_v2_line_flag
+GPIO_V2_LINE_FLAG_INPUT	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_FLAG_INPUT			= _BITULL(2),$/;"	e	enum:gpio_v2_line_flag
+GPIO_V2_LINE_FLAG_OPEN_DRAIN	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_FLAG_OPEN_DRAIN		= _BITULL(6),$/;"	e	enum:gpio_v2_line_flag
+GPIO_V2_LINE_FLAG_OPEN_SOURCE	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_FLAG_OPEN_SOURCE		= _BITULL(7),$/;"	e	enum:gpio_v2_line_flag
+GPIO_V2_LINE_FLAG_OUTPUT	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_FLAG_OUTPUT		= _BITULL(3),$/;"	e	enum:gpio_v2_line_flag
+GPIO_V2_LINE_FLAG_USED	deps/circuits_gpio/c_src/linux/gpio.h	/^	GPIO_V2_LINE_FLAG_USED			= _BITULL(0),$/;"	e	enum:gpio_v2_line_flag
+GPIO_V2_LINE_GET_VALUES_IOCTL	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIO_V2_LINE_GET_VALUES_IOCTL /;"	d
+GPIO_V2_LINE_NUM_ATTRS_MAX	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIO_V2_LINE_NUM_ATTRS_MAX /;"	d
+GPIO_V2_LINE_SET_CONFIG_IOCTL	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIO_V2_LINE_SET_CONFIG_IOCTL /;"	d
+GPIO_V2_LINE_SET_VALUES_IOCTL	deps/circuits_gpio/c_src/linux/gpio.h	/^#define GPIO_V2_LINE_SET_VALUES_IOCTL /;"	d
+Getting started on Nerves and Linux	deps/circuits_gpio/README.md	/^## Getting started on Nerves and Linux$/;"	s	chapter:Circuits - GPIO
+HAL_CDEV_GPIO_H	deps/circuits_gpio/c_src/hal_cdev_gpio.h	/^#define HAL_CDEV_GPIO_H$/;"	d
+HAL_SRC	deps/circuits_gpio/Makefile	/^HAL_SRC = c_src\/hal_cdev_gpio.c c_src\/hal_cdev_gpio_interrupts.c$/;"	m
+HAL_SRC	deps/circuits_gpio/Makefile	/^HAL_SRC = c_src\/hal_stub.c$/;"	m
+HEADERS	deps/circuits_gpio/Makefile	/^HEADERS =$(wildcard c_src\/*.h)$/;"	m
+Handle	deps/circuits_gpio/lib/gpio/cdev.ex	/^  defimpl Handle do$/;"	i	module:CDev
+Handle	deps/circuits_gpio/lib/gpio/handle.ex	/^defprotocol Circuits.GPIO.Handle do$/;"	p
+I tried turning on and off a GPIO as fast as I could. Why was it slow?	deps/circuits_gpio/README.md	/^### I tried turning on and off a GPIO as fast as I could. Why was it slow?$/;"	S	section:Circuits - GPIO""FAQ
+Installation	README.md	/^## Installation$/;"	s	chapter:Alternate
+Installation	deps/pigpiox/README.md	/^# Installation$/;"	c
+Internal pull-up/pull-down	deps/circuits_gpio/README.md	/^### Internal pull-up\/pull-down$/;"	S	section:Circuits - GPIO""GPIO
+LOG_PATH	deps/circuits_gpio/c_src/gpio_nif.h	/^#define LOG_PATH /;"	d
+License	deps/circuits_gpio/README.md	/^## License$/;"	s	chapter:Circuits - GPIO
+License	deps/elixir_make/README.md	/^## License$/;"	s	chapter:A Make compiler for Mix
+MAX_GPIOCHIP_PATH_LEN	deps/circuits_gpio/c_src/gpio_nif.h	/^#define MAX_GPIOCHIP_PATH_LEN /;"	d
+MAX_GPIO_LISTENERS	deps/circuits_gpio/c_src/gpio_nif.h	/^#define MAX_GPIO_LISTENERS /;"	d
+MixProject	deps/circuits_gpio/mix.exs	/^defmodule Circuits.GPIO.MixProject do$/;"	m
+MixProject	mix.exs	/^defmodule Alternate.MixProject do$/;"	m
+Mixfile	deps/elixir_make/mix.exs	/^defmodule ElixirMake.Mixfile do$/;"	m
+Mixfile	deps/pigpiox/mix.exs	/^defmodule Pigpiox.Mixfile do$/;"	m
+NIF	deps/circuits_gpio/Makefile	/^NIF = $(PREFIX)\/gpio_nif.so$/;"	m
+NIF	deps/circuits_gpio/Makefile	/^NIF =$/;"	m
+NUM_GPIOS	deps/circuits_gpio/c_src/hal_stub.c	/^#define NUM_GPIOS /;"	d	file:
+Nerves + Livebook	deps/circuits_gpio/README.md	/^## Nerves + Livebook$/;"	s	chapter:Circuits - GPIO
+Nif	deps/circuits_gpio/lib/gpio/gpio_nif.ex	/^defmodule Circuits.GPIO.Nif do$/;"	m
+NilBackend	deps/circuits_gpio/lib/gpio/nil_backend.ex	/^defmodule Circuits.GPIO.NilBackend do$/;"	m
+OBJ	deps/circuits_gpio/Makefile	/^OBJ = $(SRC:c_src\/%.c=$(BUILD)\/%.o)$/;"	m
+PREFIX	deps/circuits_gpio/Makefile	/^PREFIX = $(MIX_APP_PATH)\/priv$/;"	m
+PULL_DOWN	deps/circuits_gpio/c_src/gpio_nif.h	/^    PULL_DOWN$/;"	e	enum:pull_mode
+PULL_NONE	deps/circuits_gpio/c_src/gpio_nif.h	/^    PULL_NONE,$/;"	e	enum:pull_mode
+PULL_NOT_SET	deps/circuits_gpio/c_src/gpio_nif.h	/^    PULL_NOT_SET,$/;"	e	enum:pull_mode
+PULL_UP	deps/circuits_gpio/c_src/gpio_nif.h	/^    PULL_UP,$/;"	e	enum:pull_mode
+Pigpiox	deps/pigpiox/README.md	/^# Pigpiox$/;"	c
+Pigpiox	deps/pigpiox/lib/pigpiox.ex	/^defmodule Pigpiox do$/;"	m
+PigpioxTest	deps/pigpiox/test/pigpiox_test.exs	/^defmodule PigpioxTest do$/;"	m
+Port	deps/pigpiox/lib/pigpiox/port.ex	/^defmodule Pigpiox.Port do$/;"	m
+Porting	deps/circuits_gpio/PORTING.md	/^# Porting$/;"	c
+Precompile	deps/elixir_make/lib/mix/tasks/elixir_make.precompile.ex	/^defmodule Mix.Tasks.ElixirMake.Precompile do$/;"	m
+Precompiler	deps/elixir_make/lib/elixir_make/precompiler.ex	/^defmodule ElixirMake.Precompiler do$/;"	m
+Publishing a package to Hex.pm	deps/elixir_make/README.md	/^## Publishing a package to Hex.pm$/;"	s	chapter:A Make compiler for Mix
+Pulse	deps/pigpiox/lib/pigpiox/waveform.ex	/^  defmodule Pulse do$/;"	m
+Pwm	deps/pigpiox/lib/pigpiox/pwm.ex	/^defmodule Pigpiox.Pwm do$/;"	m
+Requirements	deps/pigpiox/README.md	/^# Requirements$/;"	c
+SRC	deps/circuits_gpio/Makefile	/^SRC = $(HAL_SRC) c_src\/gpio_nif.c$/;"	m
+Socket	deps/pigpiox/lib/pigpiox/socket.ex	/^defmodule Pigpiox.Socket do$/;"	m
+Start	lib/start.ex	/^defmodule Start do$/;"	m
+State	deps/pigpiox/lib/pigpiox/gpio/watcher.ex	/^  defmodule State do$/;"	m
+Supervisor	deps/pigpiox/lib/pigpiox/supervisor.ex	/^defmodule Pigpiox.Supervisor do$/;"	m
+Supervisor	lib/supervisor.ex	/^defmodule Alternate.Supervisor do$/;"	m
+TRIGGER_BOTH	deps/circuits_gpio/c_src/gpio_nif.h	/^    TRIGGER_BOTH$/;"	e	enum:trigger_mode
+TRIGGER_FALLING	deps/circuits_gpio/c_src/gpio_nif.h	/^    TRIGGER_FALLING,$/;"	e	enum:trigger_mode
+TRIGGER_NONE	deps/circuits_gpio/c_src/gpio_nif.h	/^    TRIGGER_NONE = 0,$/;"	e	enum:trigger_mode
+TRIGGER_RISING	deps/circuits_gpio/c_src/gpio_nif.h	/^    TRIGGER_RISING,$/;"	e	enum:trigger_mode
+Testing	deps/circuits_gpio/README.md	/^## Testing$/;"	s	chapter:Circuits - GPIO
+Upgrading Circuits.GPIO 1.0 projects to 2.0	deps/circuits_gpio/PORTING.md	/^## Upgrading Circuits.GPIO 1.0 projects to 2.0$/;"	s	chapter:Porting
+Usage	deps/elixir_make/README.md	/^## Usage$/;"	s	chapter:A Make compiler for Mix
+Usage	deps/pigpiox/README.md	/^# Usage$/;"	c
+Watcher	deps/pigpiox/lib/pigpiox/gpio/watcher.ex	/^defmodule Pigpiox.GPIO.Watcher do$/;"	m
+WatcherSupervisor	deps/pigpiox/lib/pigpiox/gpio/watcher_supervisor.ex	/^defmodule Pigpiox.GPIO.WatcherSupervisor do$/;"	m
+Watching a GPIO	deps/pigpiox/README.md	/^### Watching a GPIO$/;"	S	section:Usage""GPIO
+Waveform	deps/pigpiox/lib/pigpiox/waveform.ex	/^defmodule Pigpiox.Waveform do$/;"	m
+Waveforms	deps/pigpiox/README.md	/^## Waveforms$/;"	s	chapter:Usage
+Where can I get help?	deps/circuits_gpio/README.md	/^### Where can I get help?$/;"	S	section:Circuits - GPIO""FAQ
+_UAPI_GPIO_H_	deps/circuits_gpio/c_src/linux/gpio.h	/^#define _UAPI_GPIO_H_$/;"	d
+__anonf1826ca0010a	deps/circuits_gpio/c_src/linux/gpio.h	/^	union {$/;"	u	struct:gpio_v2_line_attribute
+__anonf1826ca00203	deps/circuits_gpio/c_src/linux/gpio.h	/^enum {$/;"	g
+add_generic	deps/pigpiox/lib/pigpiox/waveform.ex	/^  def add_generic(pulses) do$/;"	f	module:Pulse
+add_listener	deps/circuits_gpio/c_src/hal_cdev_gpio_interrupts.c	/^static void add_listener(ErlNifEnv *env, struct gpio_monitor_info *infos, const struct gpio_moni/;"	f	typeref:typename:void	file:
+all	deps/circuits_gpio/Makefile	/^all: install$/;"	t
+all_supported_targets	deps/elixir_make/lib/elixir_make/precompiler.ex	/^  @callback all_supported_targets(operation :: :compile | :fetch) :: [target]$/;"	c	module:Precompiler
+application	deps/circuits_gpio/mix.exs	/^  def application do$/;"	f	module:MixProject
+application	deps/elixir_make/mix.exs	/^  def application do$/;"	f	module:Mixfile
+application	deps/pigpiox/mix.exs	/^  def application do$/;"	f	module:Mixfile
+application	mix.exs	/^  def application do$/;"	f	module:MixProject
+archive_filename	deps/elixir_make/lib/elixir_make/artefact.ex	/^  defp archive_filename(config, target, nif_version) do$/;"	f	module:Artefact
+archive_path	deps/elixir_make/lib/elixir_make/artefact.ex	/^  def archive_path(config, target, nif_version) do$/;"	f	module:Artefact
+args_for_makefile	deps/elixir_make/lib/elixir_make/compiler.ex	/^  defp args_for_makefile("nmake", :default), do: ["\/F", "Makefile.win"]$/;"	f	module:Compiler
+args_for_makefile	deps/elixir_make/lib/elixir_make/compiler.ex	/^  defp args_for_makefile("nmake", makefile), do: ["\/F", makefile]$/;"	f	module:Compiler
+args_for_makefile	deps/elixir_make/lib/elixir_make/compiler.ex	/^  defp args_for_makefile(_, :default), do: []$/;"	f	module:Compiler
+args_for_makefile	deps/elixir_make/lib/elixir_make/compiler.ex	/^  defp args_for_makefile(_, makefile), do: ["-f", makefile]$/;"	f	module:Compiler
+assert	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  defmacrop assert(expr) do$/;"	a	module:Diagnostics
+assert_receive	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  defmacrop assert_receive(expected, timeout \\\\ 500) do$/;"	a	module:Diagnostics
+atom_circuits_gpio	deps/circuits_gpio/c_src/gpio_nif.c	/^ERL_NIF_TERM atom_circuits_gpio;$/;"	v	typeref:typename:ERL_NIF_TERM
+atom_consumer	deps/circuits_gpio/c_src/gpio_nif.c	/^ERL_NIF_TERM atom_consumer;$/;"	v	typeref:typename:ERL_NIF_TERM
+atom_controller	deps/circuits_gpio/c_src/gpio_nif.c	/^ERL_NIF_TERM atom_controller;$/;"	v	typeref:typename:ERL_NIF_TERM
+atom_error	deps/circuits_gpio/c_src/gpio_nif.c	/^ERL_NIF_TERM atom_error;$/;"	v	typeref:typename:ERL_NIF_TERM
+atom_label	deps/circuits_gpio/c_src/gpio_nif.c	/^ERL_NIF_TERM atom_label;$/;"	v	typeref:typename:ERL_NIF_TERM
+atom_location	deps/circuits_gpio/c_src/gpio_nif.c	/^ERL_NIF_TERM atom_location;$/;"	v	typeref:typename:ERL_NIF_TERM
+atom_name	deps/circuits_gpio/c_src/gpio_nif.c	/^ERL_NIF_TERM atom_name;$/;"	v	typeref:typename:ERL_NIF_TERM
+atom_ok	deps/circuits_gpio/c_src/gpio_nif.c	/^ERL_NIF_TERM atom_ok;$/;"	v	typeref:typename:ERL_NIF_TERM
+attempt_connection	deps/pigpiox/lib/pigpiox/socket.ex	/^  defp attempt_connection(_retries) do$/;"	f	module:Socket
+attempt_connection	deps/pigpiox/lib/pigpiox/socket.ex	/^  defp attempt_connection(num_retries) when num_retries > 0 do$/;"	f	module:Socket
+attr	deps/circuits_gpio/c_src/linux/gpio.h	/^	struct gpio_v2_line_attribute attr;$/;"	m	struct:gpio_v2_line_config_attribute	typeref:struct:gpio_v2_line_attribute
+attrs	deps/circuits_gpio/c_src/linux/gpio.h	/^	struct gpio_v2_line_attribute attrs[GPIO_V2_LINE_NUM_ATTRS_MAX];$/;"	m	struct:gpio_v2_line_info	typeref:struct:gpio_v2_line_attribute[]
+attrs	deps/circuits_gpio/c_src/linux/gpio.h	/^	struct gpio_v2_line_config_attribute attrs[GPIO_V2_LINE_NUM_ATTRS_MAX];$/;"	m	struct:gpio_v2_line_config	typeref:struct:gpio_v2_line_config_attribute[]
+available_target_urls	deps/elixir_make/lib/elixir_make/artefact.ex	/^  def available_target_urls(config, precompiler) do$/;"	f	module:Artefact
+backend	deps/circuits_gpio/lib/gpio.ex	/^  @type backend() :: {module(), keyword()}$/;"	y	module:GPIO
+backend_info	deps/circuits_gpio/c_src/gpio_nif.c	/^static ERL_NIF_TERM backend_info(ErlNifEnv *env, int argc, const ERL_NIF_TERM argv[])$/;"	f	typeref:typename:ERL_NIF_TERM	file:
+backend_info	deps/circuits_gpio/lib/gpio.ex	/^  def backend_info(backend \\\\ nil)$/;"	f	module:GPIO
+backend_info	deps/circuits_gpio/lib/gpio.ex	/^  def backend_info(nil), do: backend_info(default_backend())$/;"	f	module:GPIO
+backend_info	deps/circuits_gpio/lib/gpio.ex	/^  def backend_info({backend, _options}), do: backend.backend_info()$/;"	f	module:GPIO
+backend_info	deps/circuits_gpio/lib/gpio/backend.ex	/^  @callback backend_info() :: map()$/;"	c	module:Backend
+backend_info	deps/circuits_gpio/lib/gpio/cdev.ex	/^  def backend_info() do$/;"	f	module:CDev
+backend_info	deps/circuits_gpio/lib/gpio/gpio_nif.ex	/^  def backend_info(), do: :erlang.nif_error(:nif_not_loaded)$/;"	f	module:Nif
+backend_info	deps/circuits_gpio/lib/gpio/nil_backend.ex	/^  def backend_info() do$/;"	f	module:NilBackend
+basename_from_url	deps/elixir_make/lib/mix/tasks/elixir_make.checksum.ex	/^  defp basename_from_url(url) do$/;"	f	module:Checksum
+bits	deps/circuits_gpio/c_src/linux/gpio.h	/^	__aligned_u64 bits;$/;"	m	struct:gpio_v2_line_values	typeref:typename:__aligned_u64
+build_native	deps/elixir_make/lib/elixir_make/precompiler.ex	/^  @callback build_native(OptionParser.argv()) ::$/;"	c	module:Precompiler
+busy?	deps/pigpiox/lib/pigpiox/waveform.ex	/^  def busy?() do$/;"	f	module:Pulse
+cacerts_from_os	deps/elixir_make/lib/elixir_make/artefact.ex	/^  defp cacerts_from_os do$/;"	f	module:Artefact
+cacerts_options	deps/elixir_make/lib/elixir_make/artefact.ex	/^  defp cacerts_options do$/;"	f	module:Artefact
+cache_dir	deps/elixir_make/lib/elixir_make/artefact.ex	/^  def cache_dir() do$/;"	f	module:Artefact
+calling_from_make	deps/circuits_gpio/Makefile	/^calling_from_make:$/;"	t
+cdev_compile_mode	deps/circuits_gpio/mix.exs	/^  defp cdev_compile_mode(Circuits.GPIO.CDev) do$/;"	f	module:MixProject
+cdev_compile_mode	deps/circuits_gpio/mix.exs	/^  defp cdev_compile_mode(_other) do$/;"	f	module:MixProject
+cdev_compile_mode	deps/circuits_gpio/mix.exs	/^  defp cdev_compile_mode({Circuits.GPIO.CDev, options}) do$/;"	f	module:MixProject
+check	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  defp check({name, test, options}, out_gpio_spec, in_gpio_spec) do$/;"	f	module:Diagnostics
+check_bbb_linux_5_15_gpio_change	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^static void check_bbb_linux_5_15_gpio_change()$/;"	f	typeref:typename:void	file:
+check_interrupt_timing	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  def check_interrupt_timing(out_gpio_spec, in_gpio_spec, _options) do$/;"	f	module:Diagnostics
+check_interrupts	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  def check_interrupts(out_gpio_spec, in_gpio_spec, _options) do$/;"	f	module:Diagnostics
+check_options!	deps/circuits_gpio/lib/gpio.ex	/^  defp check_options!([]), do: :ok$/;"	f	module:GPIO
+check_options!	deps/circuits_gpio/lib/gpio.ex	/^  defp check_options!([_unknown_option | rest]) do$/;"	f	module:GPIO
+check_options!	deps/circuits_gpio/lib/gpio.ex	/^  defp check_options!([{:initial_value, value} | rest]) do$/;"	f	module:GPIO
+check_options!	deps/circuits_gpio/lib/gpio.ex	/^  defp check_options!([{:pull_mode, value} | rest]) do$/;"	f	module:GPIO
+check_pulldown	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  def check_pulldown(out_gpio_spec, in_gpio_spec, _options) do$/;"	f	module:Diagnostics
+check_pullup	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  def check_pullup(out_gpio_spec, in_gpio_spec, _options) do$/;"	f	module:Diagnostics
+check_reading_and_writing	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  def check_reading_and_writing(out_gpio_spec, in_gpio_spec, _options) do$/;"	f	module:Diagnostics
+check_setting_initial_value	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  def check_setting_initial_value(out_gpio_spec, in_gpio_spec, options) do$/;"	f	module:Diagnostics
+checksum	deps/elixir_make/lib/elixir_make/artefact.ex	/^  def checksum(basename, contents) do$/;"	f	module:Artefact
+checksum_file	deps/elixir_make/lib/elixir_make/artefact.ex	/^  defp checksum_file() do$/;"	f	module:Artefact
+clean	deps/circuits_gpio/Makefile	/^clean:$/;"	t
+clean	deps/elixir_make/lib/mix/tasks/compile.elixir_make.ex	/^  def clean() do$/;"	f	module:ElixirMake
+clear_all	deps/pigpiox/lib/pigpiox/waveform.ex	/^  def clear_all()  do$/;"	f	module:Waveform
+close	deps/circuits_gpio/lib/gpio.ex	/^  defdelegate close(handle), to: Handle$/;"	d	module:GPIO
+close	deps/circuits_gpio/lib/gpio/cdev.ex	/^    def close(%Circuits.GPIO.CDev{ref: ref}) do$/;"	f	module:CDev
+close	deps/circuits_gpio/lib/gpio/gpio_nif.ex	/^  def close(_gpio), do: :erlang.nif_error(:nif_not_loaded)$/;"	f	module:Nif
+close	deps/circuits_gpio/lib/gpio/handle.ex	/^  def close(handle)$/;"	f	protocol:Handle
+close_gpio	deps/circuits_gpio/c_src/gpio_nif.c	/^static ERL_NIF_TERM close_gpio(ErlNifEnv *env, int argc, const ERL_NIF_TERM argv[])$/;"	f	typeref:typename:ERL_NIF_TERM	file:
+cmd	deps/elixir_make/lib/elixir_make/compiler.ex	/^  defp cmd(exec, args, cwd, env, verbose?) do$/;"	f	module:Compiler
+code	deps/pigpiox/lib/pigpiox/command.ex	/^  def code(command) when command in @command_names do$/;"	f	module:Command
+command	deps/pigpiox/lib/pigpiox/socket.ex	/^  def command(cmd, p1 \\\\ 0, p2 \\\\ 0, extents \\\\ [])$/;"	f	module:Socket
+command	deps/pigpiox/lib/pigpiox/socket.ex	/^  def command(cmd, p1, p2, extents) do$/;"	f	module:Socket
+command_result	deps/pigpiox/lib/pigpiox/socket.ex	/^  @type command_result :: {:ok, result :: non_neg_integer} | {:error, reason :: atom}$/;"	y	module:Socket
+compact_listeners	deps/circuits_gpio/c_src/hal_cdev_gpio_interrupts.c	/^static void compact_listeners(struct gpio_monitor_info *infos, int count)$/;"	f	typeref:typename:void	file:
+compile	deps/elixir_make/lib/elixir_make/compiler.ex	/^  def compile(args) do$/;"	f	module:Compiler
+compress	deps/elixir_make/lib/elixir_make/artefact.ex	/^  def compress(archive_path, paths) do$/;"	f	module:Artefact
+config	deps/circuits_gpio/c_src/gpio_nif.h	/^    struct gpio_config config;$/;"	m	struct:gpio_pin	typeref:struct:gpio_config
+config	deps/circuits_gpio/c_src/linux/gpio.h	/^	struct gpio_v2_line_config config;$/;"	m	struct:gpio_v2_line_request	typeref:struct:gpio_v2_line_config
+config_to_flags	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^static uint64_t config_to_flags(const struct gpio_pin *pin)$/;"	f	typeref:typename:uint64_t	file:
+consumer	deps/circuits_gpio/c_src/linux/gpio.h	/^	char consumer[GPIO_MAX_NAME_SIZE];$/;"	m	struct:gpio_v2_line_info	typeref:typename:char[]
+consumer	deps/circuits_gpio/c_src/linux/gpio.h	/^	char consumer[GPIO_MAX_NAME_SIZE];$/;"	m	struct:gpio_v2_line_request	typeref:typename:char[]
+consumer	deps/circuits_gpio/c_src/linux/gpio.h	/^	char consumer[GPIO_MAX_NAME_SIZE];$/;"	m	struct:gpioline_info	typeref:typename:char[]
+consumer_label	deps/circuits_gpio/c_src/linux/gpio.h	/^	char consumer_label[GPIO_MAX_NAME_SIZE];$/;"	m	struct:gpioevent_request	typeref:typename:char[]
+consumer_label	deps/circuits_gpio/c_src/linux/gpio.h	/^	char consumer_label[GPIO_MAX_NAME_SIZE];$/;"	m	struct:gpiohandle_request	typeref:typename:char[]
+controller	deps/circuits_gpio/lib/gpio.ex	/^  @type controller() :: String.t()$/;"	y	module:GPIO
+create	deps/pigpiox/lib/pigpiox/waveform.ex	/^  def create() do$/;"	f	module:Pulse
+create_precompiled_archive	deps/elixir_make/lib/mix/tasks/elixir_make.precompile.ex	/^  defp create_precompiled_archive(config, target, paths) do$/;"	f	module:Precompile
+current	deps/pigpiox/lib/pigpiox/waveform.ex	/^  def current() do$/;"	f	module:Pulse
+current_target	deps/elixir_make/lib/elixir_make/precompiler.ex	/^  @callback current_target() :: {:ok, target} | {:error, String.t()}$/;"	c	module:Precompiler
+current_target_url	deps/elixir_make/lib/elixir_make/artefact.ex	/^  def current_target_url(config, precompiler, nif_version) do$/;"	f	module:Artefact
+debounce_period_us	deps/circuits_gpio/c_src/linux/gpio.h	/^		__u32 debounce_period_us;$/;"	m	union:gpio_v2_line_attribute::__anonf1826ca0010a	typeref:typename:__u32
+debug	deps/circuits_gpio/c_src/gpio_nif.h	/^#define debug(/;"	d
+default_backend	deps/circuits_gpio/lib/gpio.ex	/^  defp default_backend() do$/;"	f	module:GPIO
+default_backend	deps/circuits_gpio/mix.exs	/^  defp default_backend(), do: default_backend(Mix.env(), Mix.target())$/;"	f	module:MixProject
+default_backend	deps/circuits_gpio/mix.exs	/^  defp default_backend(:docs, _target), do: {Circuits.GPIO.CDev, test: true}$/;"	f	module:MixProject
+default_backend	deps/circuits_gpio/mix.exs	/^  defp default_backend(:nil_test, _target), do: Circuits.GPIO.NilBackend$/;"	f	module:MixProject
+default_backend	deps/circuits_gpio/mix.exs	/^  defp default_backend(:test, _target), do: {Circuits.GPIO.CDev, test: true}$/;"	f	module:MixProject
+default_backend	deps/circuits_gpio/mix.exs	/^  defp default_backend(_env, :host) do$/;"	f	module:MixProject
+default_backend	deps/circuits_gpio/mix.exs	/^  defp default_backend(_env, _not_host), do: Circuits.GPIO.CDev$/;"	f	module:MixProject
+default_env	deps/elixir_make/lib/elixir_make/compiler.ex	/^  defp default_env(config, default_env) do$/;"	f	module:Compiler
+default_values	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u8 default_values[GPIOHANDLES_MAX];$/;"	m	struct:gpiohandle_config	typeref:typename:__u8[]
+default_values	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u8 default_values[GPIOHANDLES_MAX];$/;"	m	struct:gpiohandle_request	typeref:typename:__u8[]
+delete	deps/pigpiox/lib/pigpiox/waveform.ex	/^  def delete(wave_id) do$/;"	f	module:Pulse
+deps	deps/circuits_gpio/mix.exs	/^  defp deps() do$/;"	f	module:MixProject
+deps	deps/elixir_make/mix.exs	/^  defp deps do$/;"	f	module:Mixfile
+deps	deps/pigpiox/mix.exs	/^  defp deps do$/;"	f	module:Mixfile
+deps	mix.exs	/^  defp deps do$/;"	f	module:MixProject
+description	deps/pigpiox/mix.exs	/^  defp description do$/;"	f	module:Mixfile
+dialyzer	deps/circuits_gpio/mix.exs	/^  defp dialyzer() do$/;"	f	module:MixProject
+direction	deps/circuits_gpio/lib/gpio.ex	/^  @type direction() :: :input | :output$/;"	y	module:GPIO
+docs	deps/circuits_gpio/mix.exs	/^  defp docs do$/;"	f	module:MixProject
+docs	deps/elixir_make/mix.exs	/^  defp docs do$/;"	f	module:Mixfile
+download	deps/elixir_make/lib/elixir_make/artefact.ex	/^  def download(url) do$/;"	f	module:Artefact
+download_and_checksum_all	deps/elixir_make/lib/mix/tasks/elixir_make.checksum.ex	/^  defp download_and_checksum_all(urls, options) do$/;"	f	module:Checksum
+download_or_reuse_nif	deps/elixir_make/lib/mix/tasks/compile.elixir_make.ex	/^  defp download_or_reuse_nif(config, precompiler, app_priv) do$/;"	f	module:ElixirMake
+elapsed_microseconds	deps/circuits_gpio/c_src/gpio_nif.h	/^#define elapsed_microseconds(/;"	d
+enif_get_boolean	deps/circuits_gpio/c_src/nif_utils.c	/^int enif_get_boolean(ErlNifEnv *env, ERL_NIF_TERM term, bool *v)$/;"	f	typeref:typename:int
+enumerate	deps/circuits_gpio/lib/gpio.ex	/^  def enumerate(backend \\\\ nil)$/;"	f	module:GPIO
+enumerate	deps/circuits_gpio/lib/gpio.ex	/^  def enumerate(nil), do: enumerate(default_backend())$/;"	f	module:GPIO
+enumerate	deps/circuits_gpio/lib/gpio.ex	/^  def enumerate({backend, options}), do: backend.enumerate(options)$/;"	f	module:GPIO
+enumerate	deps/circuits_gpio/lib/gpio/backend.ex	/^  @callback enumerate(options :: GPIO.open_options()) :: [GPIO.identifiers()]$/;"	c	module:Backend
+enumerate	deps/circuits_gpio/lib/gpio/cdev.ex	/^  def enumerate(options) do$/;"	f	module:CDev
+enumerate	deps/circuits_gpio/lib/gpio/gpio_nif.ex	/^  def enumerate(), do: :erlang.nif_error(:nif_not_loaded)$/;"	f	module:Nif
+enumerate	deps/circuits_gpio/lib/gpio/nil_backend.ex	/^  def enumerate(_options) do$/;"	f	module:NilBackend
+env	deps/circuits_gpio/c_src/gpio_nif.h	/^    ErlNifEnv *env;$/;"	m	struct:gpio_pin	typeref:typename:ErlNifEnv *
+env	deps/elixir_make/lib/elixir_make/compiler.ex	/^  defp env(var, default) do$/;"	f	module:Compiler
+error	deps/circuits_gpio/c_src/gpio_nif.h	/^#define error(/;"	d
+error_reason	deps/pigpiox/lib/pigpiox/command.ex	/^  def error_reason(code) do$/;"	f	module:Command
+event_buffer_size	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 event_buffer_size;$/;"	m	struct:gpio_v2_line_request	typeref:typename:__u32
+event_type	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 event_type;$/;"	m	struct:gpio_v2_line_info_changed	typeref:typename:__u32
+event_type	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 event_type;$/;"	m	struct:gpioline_info_changed	typeref:typename:__u32
+eventflags	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 eventflags;$/;"	m	struct:gpioevent_request	typeref:typename:__u32
+fd	deps/circuits_gpio/c_src/gpio_nif.h	/^    int fd;$/;"	m	struct:gpio_pin	typeref:typename:int
+fd	deps/circuits_gpio/c_src/hal_cdev_gpio_interrupts.c	/^    int fd;$/;"	m	struct:gpio_monitor_info	typeref:typename:int	file:
+fd	deps/circuits_gpio/c_src/linux/gpio.h	/^	__s32 fd;$/;"	m	struct:gpio_v2_line_request	typeref:typename:__s32
+fd	deps/circuits_gpio/c_src/linux/gpio.h	/^	int fd;$/;"	m	struct:gpioevent_request	typeref:typename:int
+fd	deps/circuits_gpio/c_src/linux/gpio.h	/^	int fd;$/;"	m	struct:gpiohandle_request	typeref:typename:int
+find_by_index	deps/circuits_gpio/lib/gpio/cdev.ex	/^  defp find_by_index(gpios, index), do: Enum.at(gpios, index)$/;"	f	module:CDev
+find_by_label	deps/circuits_gpio/lib/gpio/cdev.ex	/^  defp find_by_label(gpios, label) do$/;"	f	module:CDev
+find_by_tuple	deps/circuits_gpio/lib/gpio/cdev.ex	/^  defp find_by_tuple(gpios, {controller, label_or_index}) do$/;"	f	module:CDev
+find_executable	deps/elixir_make/lib/elixir_make/compiler.ex	/^  defp find_executable(exec) do$/;"	f	module:Compiler
+find_location	deps/circuits_gpio/lib/gpio/cdev.ex	/^  defp find_location(gpio_spec, options) do$/;"	f	module:CDev
+find_location	deps/circuits_gpio/lib/gpio/cdev.ex	/^  defp find_location({"gpiochip" <> _, line} = gpio_spec, _options) when is_integer(line) do$/;"	f	module:CDev
+flags	deps/circuits_gpio/c_src/linux/gpio.h	/^		__aligned_u64 flags;$/;"	m	union:gpio_v2_line_attribute::__anonf1826ca0010a	typeref:typename:__aligned_u64
+flags	deps/circuits_gpio/c_src/linux/gpio.h	/^	__aligned_u64 flags;$/;"	m	struct:gpio_v2_line_config	typeref:typename:__aligned_u64
+flags	deps/circuits_gpio/c_src/linux/gpio.h	/^	__aligned_u64 flags;$/;"	m	struct:gpio_v2_line_info	typeref:typename:__aligned_u64
+flags	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 flags;$/;"	m	struct:gpiohandle_config	typeref:typename:__u32
+flags	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 flags;$/;"	m	struct:gpiohandle_request	typeref:typename:__u32
+flags	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 flags;$/;"	m	struct:gpioline_info	typeref:typename:__u32
+format_c	deps/circuits_gpio/mix.exs	/^  defp format_c([]) do$/;"	f	module:MixProject
+format_c	deps/circuits_gpio/mix.exs	/^  defp format_c(_args), do: true$/;"	f	module:MixProject
+get_cbs	deps/pigpiox/lib/pigpiox/waveform.ex	/^  def get_cbs() do$/;"	f	module:Pulse
+get_direction	deps/circuits_gpio/c_src/gpio_nif.c	/^static int get_direction(ErlNifEnv *env, ERL_NIF_TERM term, bool *is_output)$/;"	f	typeref:typename:int	file:
+get_max_cbs	deps/pigpiox/lib/pigpiox/waveform.ex	/^  def get_max_cbs() do$/;"	f	module:Pulse
+get_max_micros	deps/pigpiox/lib/pigpiox/waveform.ex	/^  def get_max_micros() do$/;"	f	module:Pulse
+get_max_pulses	deps/pigpiox/lib/pigpiox/waveform.ex	/^  def get_max_pulses() do$/;"	f	module:Pulse
+get_micros	deps/pigpiox/lib/pigpiox/waveform.ex	/^  def get_micros() do$/;"	f	module:Pulse
+get_mode	deps/pigpiox/lib/pigpiox/gpio.ex	/^	def get_mode(pin) do$/;"	f	module:GPIO
+get_pull_mode	deps/circuits_gpio/c_src/gpio_nif.c	/^static int get_pull_mode(ErlNifEnv *env, ERL_NIF_TERM term, enum pull_mode *pull)$/;"	f	typeref:typename:int	file:
+get_pulses	deps/pigpiox/lib/pigpiox/waveform.ex	/^  def get_pulses() do$/;"	f	module:Pulse
+get_pwm_dutycycle	deps/pigpiox/lib/pigpiox/pwm.ex	/^  def get_pwm_dutycycle(pin) do$/;"	f	module:Pwm
+get_pwm_frequency	deps/pigpiox/lib/pigpiox/pwm.ex	/^  def get_pwm_frequency(pin) do$/;"	f	module:Pwm
+get_resolved_location	deps/circuits_gpio/c_src/gpio_nif.c	/^static int get_resolved_location(ErlNifEnv *env, ERL_NIF_TERM term, char *gpiochip_path, int *of/;"	f	typeref:typename:int	file:
+get_servo_pulsewidth	deps/pigpiox/lib/pigpiox/gpio.ex	/^  def get_servo_pulsewidth(pin) do$/;"	f	module:GPIO
+get_status	deps/circuits_gpio/c_src/gpio_nif.c	/^static ERL_NIF_TERM get_status(ErlNifEnv *env, int argc, const ERL_NIF_TERM argv[])$/;"	f	typeref:typename:ERL_NIF_TERM	file:
+get_trigger	deps/circuits_gpio/c_src/gpio_nif.c	/^static int get_trigger(ErlNifEnv *env, ERL_NIF_TERM term, enum trigger_mode *mode)$/;"	f	typeref:typename:int	file:
+get_value	deps/circuits_gpio/c_src/gpio_nif.c	/^static int get_value(ErlNifEnv *env, ERL_NIF_TERM term, int *value)$/;"	f	typeref:typename:int	file:
+get_value_v2	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^static int get_value_v2(int fd)$/;"	f	typeref:typename:int	file:
+gpio_config	deps/circuits_gpio/c_src/gpio_nif.h	/^struct gpio_config {$/;"	s
+gpio_enumerate	deps/circuits_gpio/c_src/gpio_nif.c	/^static ERL_NIF_TERM gpio_enumerate(ErlNifEnv *env, int argc, const ERL_NIF_TERM argv[])$/;"	f	typeref:typename:ERL_NIF_TERM	file:
+gpio_monitor_info	deps/circuits_gpio/c_src/hal_cdev_gpio_interrupts.c	/^struct gpio_monitor_info {$/;"	s	file:
+gpio_pin	deps/circuits_gpio/c_src/gpio_nif.h	/^struct gpio_pin {$/;"	s
+gpio_pin_down	deps/circuits_gpio/c_src/gpio_nif.c	/^static void gpio_pin_down(ErlNifEnv *env, void *obj, ErlNifPid *pid, ErlNifMonitor *monitor)$/;"	f	typeref:typename:void	file:
+gpio_pin_dtor	deps/circuits_gpio/c_src/gpio_nif.c	/^static void gpio_pin_dtor(ErlNifEnv *env, void *obj)$/;"	f	typeref:typename:void	file:
+gpio_pin_init	deps/circuits_gpio/c_src/gpio_nif.c	/^static ErlNifResourceTypeInit gpio_pin_init = {gpio_pin_dtor, gpio_pin_stop, gpio_pin_down, 3, N/;"	v	typeref:typename:ErlNifResourceTypeInit	file:
+gpio_pin_init	deps/circuits_gpio/c_src/gpio_nif.c	/^static ErlNifResourceTypeInit gpio_pin_init = {gpio_pin_dtor, gpio_pin_stop, gpio_pin_down};$/;"	v	typeref:typename:ErlNifResourceTypeInit	file:
+gpio_pin_rt	deps/circuits_gpio/c_src/gpio_nif.h	/^    ErlNifResourceType *gpio_pin_rt;$/;"	m	struct:gpio_priv	typeref:typename:ErlNifResourceType *
+gpio_pin_stop	deps/circuits_gpio/c_src/gpio_nif.c	/^static void gpio_pin_stop(ErlNifEnv *env, void *obj, int fd, int is_direct_call)$/;"	f	typeref:typename:void	file:
+gpio_pins	deps/circuits_gpio/c_src/hal_stub.c	/^    struct gpio_pin *gpio_pins[NUM_GPIOS];$/;"	m	struct:stub_priv	typeref:struct:gpio_pin * []	file:
+gpio_poller_thread	deps/circuits_gpio/c_src/hal_cdev_gpio_interrupts.c	/^void *gpio_poller_thread(void *arg)$/;"	f	typeref:typename:void *
+gpio_priv	deps/circuits_gpio/c_src/gpio_nif.h	/^struct gpio_priv {$/;"	s
+gpio_pwm	deps/pigpiox/lib/pigpiox/pwm.ex	/^  def gpio_pwm(pin, level) do$/;"	f	module:Pwm
+gpio_spec	deps/circuits_gpio/c_src/gpio_nif.h	/^    ERL_NIF_TERM gpio_spec;$/;"	m	struct:gpio_pin	typeref:typename:ERL_NIF_TERM
+gpio_spec	deps/circuits_gpio/c_src/hal_cdev_gpio_interrupts.c	/^    ERL_NIF_TERM gpio_spec;$/;"	m	struct:gpio_monitor_info	typeref:typename:ERL_NIF_TERM	file:
+gpio_spec	deps/circuits_gpio/lib/gpio.ex	/^  @type gpio_spec() ::$/;"	y	module:GPIO
+gpio_spec?	deps/circuits_gpio/lib/gpio.ex	/^  def gpio_spec?(x), do: is_gpio_spec(x)$/;"	f	module:GPIO
+gpio_v2_line_attr_id	deps/circuits_gpio/c_src/linux/gpio.h	/^enum gpio_v2_line_attr_id {$/;"	g
+gpio_v2_line_attribute	deps/circuits_gpio/c_src/linux/gpio.h	/^struct gpio_v2_line_attribute {$/;"	s
+gpio_v2_line_changed_type	deps/circuits_gpio/c_src/linux/gpio.h	/^enum gpio_v2_line_changed_type {$/;"	g
+gpio_v2_line_config	deps/circuits_gpio/c_src/linux/gpio.h	/^struct gpio_v2_line_config {$/;"	s
+gpio_v2_line_config_attribute	deps/circuits_gpio/c_src/linux/gpio.h	/^struct gpio_v2_line_config_attribute {$/;"	s
+gpio_v2_line_event	deps/circuits_gpio/c_src/linux/gpio.h	/^struct gpio_v2_line_event {$/;"	s
+gpio_v2_line_event_id	deps/circuits_gpio/c_src/linux/gpio.h	/^enum gpio_v2_line_event_id {$/;"	g
+gpio_v2_line_flag	deps/circuits_gpio/c_src/linux/gpio.h	/^enum gpio_v2_line_flag {$/;"	g
+gpio_v2_line_info	deps/circuits_gpio/c_src/linux/gpio.h	/^struct gpio_v2_line_info {$/;"	s
+gpio_v2_line_info_changed	deps/circuits_gpio/c_src/linux/gpio.h	/^struct gpio_v2_line_info_changed {$/;"	s
+gpio_v2_line_request	deps/circuits_gpio/c_src/linux/gpio.h	/^struct gpio_v2_line_request {$/;"	s
+gpio_v2_line_values	deps/circuits_gpio/c_src/linux/gpio.h	/^struct gpio_v2_line_values {$/;"	s
+gpiochip	deps/circuits_gpio/c_src/gpio_nif.h	/^    char gpiochip[MAX_GPIOCHIP_PATH_LEN];$/;"	m	struct:gpio_pin	typeref:typename:char[]
+gpiochip_info	deps/circuits_gpio/c_src/linux/gpio.h	/^struct gpiochip_info {$/;"	s
+gpiochip_order_r	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^static int gpiochip_order_r[] = {15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0};$/;"	v	typeref:typename:int[]	file:
+gpioevent_data	deps/circuits_gpio/c_src/linux/gpio.h	/^struct gpioevent_data {$/;"	s
+gpioevent_request	deps/circuits_gpio/c_src/linux/gpio.h	/^struct gpioevent_request {$/;"	s
+gpiohandle_config	deps/circuits_gpio/c_src/linux/gpio.h	/^struct gpiohandle_config {$/;"	s
+gpiohandle_data	deps/circuits_gpio/c_src/linux/gpio.h	/^struct gpiohandle_data {$/;"	s
+gpiohandle_request	deps/circuits_gpio/c_src/linux/gpio.h	/^struct gpiohandle_request {$/;"	s
+gpioline_info	deps/circuits_gpio/c_src/linux/gpio.h	/^struct gpioline_info {$/;"	s
+gpioline_info_changed	deps/circuits_gpio/c_src/linux/gpio.h	/^struct gpioline_info_changed {$/;"	s
+greets the world	deps/pigpiox/test/pigpiox_test.exs	/^  test "greets the world" do$/;"	t	module:PigpioxTest
+greets the world	test/alternate_test.exs	/^  test "greets the world" do$/;"	t	module:AlternateTest
+hal_apply_direction	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^int hal_apply_direction(struct gpio_pin *pin)$/;"	f	typeref:typename:int
+hal_apply_direction	deps/circuits_gpio/c_src/hal_stub.c	/^int hal_apply_direction(struct gpio_pin *pin)$/;"	f	typeref:typename:int
+hal_apply_interrupts	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^int hal_apply_interrupts(struct gpio_pin *pin, ErlNifEnv *env)$/;"	f	typeref:typename:int
+hal_apply_interrupts	deps/circuits_gpio/c_src/hal_stub.c	/^int hal_apply_interrupts(struct gpio_pin *pin, ErlNifEnv *env)$/;"	f	typeref:typename:int
+hal_apply_pull_mode	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^int hal_apply_pull_mode(struct gpio_pin *pin)$/;"	f	typeref:typename:int
+hal_apply_pull_mode	deps/circuits_gpio/c_src/hal_stub.c	/^int hal_apply_pull_mode(struct gpio_pin *pin)$/;"	f	typeref:typename:int
+hal_cdev_gpio_priv	deps/circuits_gpio/c_src/hal_cdev_gpio.h	/^struct hal_cdev_gpio_priv {$/;"	s
+hal_close_gpio	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^void hal_close_gpio(struct gpio_pin *pin)$/;"	f	typeref:typename:void
+hal_close_gpio	deps/circuits_gpio/c_src/hal_stub.c	/^void hal_close_gpio(struct gpio_pin *pin)$/;"	f	typeref:typename:void
+hal_enumerate	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^ERL_NIF_TERM hal_enumerate(ErlNifEnv *env, void *hal_priv)$/;"	f	typeref:typename:ERL_NIF_TERM
+hal_enumerate	deps/circuits_gpio/c_src/hal_stub.c	/^ERL_NIF_TERM hal_enumerate(ErlNifEnv *env, void *hal_priv)$/;"	f	typeref:typename:ERL_NIF_TERM
+hal_get_status	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^int hal_get_status(void *hal_priv, ErlNifEnv *env, const char *gpiochip, int offset, ERL_NIF_TER/;"	f	typeref:typename:int
+hal_get_status	deps/circuits_gpio/c_src/hal_stub.c	/^int hal_get_status(void *hal_priv, ErlNifEnv *env, const char *gpiochip, int offset, ERL_NIF_TER/;"	f	typeref:typename:int
+hal_info	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^ERL_NIF_TERM hal_info(ErlNifEnv *env, void *hal_priv, ERL_NIF_TERM info)$/;"	f	typeref:typename:ERL_NIF_TERM
+hal_info	deps/circuits_gpio/c_src/hal_stub.c	/^ERL_NIF_TERM hal_info(ErlNifEnv *env, void *hal_priv, ERL_NIF_TERM info)$/;"	f	typeref:typename:ERL_NIF_TERM
+hal_load	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^int hal_load(void *hal_priv)$/;"	f	typeref:typename:int
+hal_load	deps/circuits_gpio/c_src/hal_stub.c	/^int hal_load(void *hal_priv)$/;"	f	typeref:typename:int
+hal_open_gpio	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^int hal_open_gpio(struct gpio_pin *pin,$/;"	f	typeref:typename:int
+hal_open_gpio	deps/circuits_gpio/c_src/hal_stub.c	/^int hal_open_gpio(struct gpio_pin *pin,$/;"	f	typeref:typename:int
+hal_priv	deps/circuits_gpio/c_src/gpio_nif.h	/^    uint32_t hal_priv[1];$/;"	m	struct:gpio_priv	typeref:typename:uint32_t[1]
+hal_priv	deps/circuits_gpio/c_src/gpio_nif.h	/^    void *hal_priv;$/;"	m	struct:gpio_pin	typeref:typename:void *
+hal_priv_size	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^size_t hal_priv_size()$/;"	f	typeref:typename:size_t
+hal_priv_size	deps/circuits_gpio/c_src/hal_stub.c	/^size_t hal_priv_size(void)$/;"	f	typeref:typename:size_t
+hal_read_gpio	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^int hal_read_gpio(struct gpio_pin *pin)$/;"	f	typeref:typename:int
+hal_read_gpio	deps/circuits_gpio/c_src/hal_stub.c	/^int hal_read_gpio(struct gpio_pin *pin)$/;"	f	typeref:typename:int
+hal_unload	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^void hal_unload(void *hal_priv)$/;"	f	typeref:typename:void
+hal_unload	deps/circuits_gpio/c_src/hal_stub.c	/^void hal_unload(void *hal_priv)$/;"	f	typeref:typename:void
+hal_write_gpio	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^int hal_write_gpio(struct gpio_pin *pin, int value, ErlNifEnv *env)$/;"	f	typeref:typename:int
+hal_write_gpio	deps/circuits_gpio/c_src/hal_stub.c	/^int hal_write_gpio(struct gpio_pin *pin, int value, ErlNifEnv *env)$/;"	f	typeref:typename:int
+handle_call	deps/pigpiox/lib/pigpiox/socket.ex	/^  def handle_call({:do_command, command, p1, p2, extents}, _, socket) do$/;"	f	module:Socket
+handle_gpio_update	deps/circuits_gpio/c_src/hal_cdev_gpio_interrupts.c	/^static int handle_gpio_update(ErlNifEnv *env,$/;"	f	typeref:typename:int	file:
+handle_info	deps/pigpiox/lib/pigpiox/gpio/watcher.ex	/^  def handle_info({_, {:data, event}}, state) do$/;"	f	module:State
+handle_info	deps/pigpiox/lib/pigpiox/gpio/watcher.ex	/^  def handle_info({_, {:exit_status, _}}, state) do$/;"	f	module:State
+handle_info	deps/pigpiox/lib/pigpiox/port.ex	/^  def handle_info(msg, state) do$/;"	f	module:Port
+handle_info	deps/pigpiox/lib/pigpiox/port.ex	/^  def handle_info({_, {:exit_status, _}}, _) do$/;"	f	module:Port
+handle_info	lib/alternate.ex	/^  def handle_info({:toggle, step}, state) do$/;"	f	module:Alternate
+handle_result	deps/pigpiox/lib/pigpiox/socket.ex	/^  defp handle_result(result) do$/;"	f	module:Socket
+handle_result	deps/pigpiox/lib/pigpiox/socket.ex	/^  defp handle_result(result) when result >= 0 do$/;"	f	module:Socket
+handleflags	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 handleflags;$/;"	m	struct:gpioevent_request	typeref:typename:__u32
+hardware_pwm	deps/pigpiox/lib/pigpiox/pwm.ex	/^  def hardware_pwm(pin, freq, level) do$/;"	f	module:Pwm
+id	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 id;$/;"	m	struct:gpio_v2_line_attribute	typeref:typename:__u32
+id	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 id;$/;"	m	struct:gpio_v2_line_event	typeref:typename:__u32
+id	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 id;$/;"	m	struct:gpioevent_data	typeref:typename:__u32
+identifiers	deps/circuits_gpio/lib/gpio.ex	/^  @type identifiers() :: %{$/;"	y	module:GPIO
+identifiers	deps/circuits_gpio/lib/gpio.ex	/^  def identifiers(gpio_spec) do$/;"	f	module:GPIO
+identifiers	deps/circuits_gpio/lib/gpio/backend.ex	/^  @callback identifiers($/;"	c	module:Backend
+identifiers	deps/circuits_gpio/lib/gpio/cdev.ex	/^  def identifiers(_gpio_spec, _options) do$/;"	f	module:CDev
+identifiers	deps/circuits_gpio/lib/gpio/cdev.ex	/^  def identifiers(line_label, options) when is_binary(line_label) do$/;"	f	module:CDev
+identifiers	deps/circuits_gpio/lib/gpio/cdev.ex	/^  def identifiers(number, options) when is_integer(number) and number >= 0 do$/;"	f	module:CDev
+identifiers	deps/circuits_gpio/lib/gpio/cdev.ex	/^  def identifiers(tuple_spec, options)$/;"	f	module:CDev
+identifiers	deps/circuits_gpio/lib/gpio/nil_backend.ex	/^  def identifiers(_gpio_spec, _options) do$/;"	f	module:NilBackend
+in_use	deps/circuits_gpio/c_src/hal_stub.c	/^    int in_use[NUM_GPIOS]; \/\/ 0=no; 1=yes$/;"	m	struct:stub_priv	typeref:typename:int[]	file:
+info	deps/circuits_gpio/c_src/linux/gpio.h	/^	struct gpio_v2_line_info info;$/;"	m	struct:gpio_v2_line_info_changed	typeref:struct:gpio_v2_line_info
+info	deps/circuits_gpio/c_src/linux/gpio.h	/^	struct gpioline_info info;$/;"	m	struct:gpioline_info_changed	typeref:struct:gpioline_info
+info	deps/circuits_gpio/lib/gpio/gpio_nif.ex	/^  def info(_gpio), do: :erlang.nif_error(:nif_not_loaded)$/;"	f	module:Nif
+init	deps/pigpiox/lib/pigpiox/gpio/watcher.ex	/^  def init({gpio, pid}) do$/;"	f	module:State
+init	deps/pigpiox/lib/pigpiox/gpio/watcher_supervisor.ex	/^  def init(:ok) do$/;"	f	module:WatcherSupervisor
+init	deps/pigpiox/lib/pigpiox/port.ex	/^  def init(_) do$/;"	f	module:Port
+init	deps/pigpiox/lib/pigpiox/socket.ex	/^  def init(_) do$/;"	f	module:Socket
+init	deps/pigpiox/lib/pigpiox/supervisor.ex	/^  def init(:ok) do$/;"	f	module:Supervisor
+init	lib/alternate.ex	/^  def init(value) do$/;"	f	module:Alternate
+init	lib/supervisor.ex	/^  def init(:ok) do$/;"	f	module:Supervisor
+init_listeners	deps/circuits_gpio/c_src/hal_cdev_gpio_interrupts.c	/^static void init_listeners(struct gpio_monitor_info *infos)$/;"	f	typeref:typename:void	file:
+initial_value	deps/circuits_gpio/c_src/gpio_nif.h	/^    int initial_value;$/;"	m	struct:gpio_config	typeref:typename:int
+install	deps/circuits_gpio/Makefile	/^install: $(PREFIX) $(BUILD) $(NIF)$/;"	t
+interrupt_options	deps/circuits_gpio/lib/gpio.ex	/^  @type interrupt_options() :: [suppress_glitches: boolean(), receiver: pid() | atom()]$/;"	y	module:GPIO
+is_gpio_spec	deps/circuits_gpio/lib/gpio.ex	/^  defguard is_gpio_spec(x)$/;"	g	module:GPIO
+is_output	deps/circuits_gpio/c_src/gpio_nif.h	/^    bool is_output;$/;"	m	struct:gpio_config	typeref:typename:bool
+label	deps/circuits_gpio/c_src/linux/gpio.h	/^	char label[GPIO_MAX_NAME_SIZE];$/;"	m	struct:gpiochip_info	typeref:typename:char[]
+label	deps/circuits_gpio/lib/gpio.ex	/^  @type label() :: String.t()$/;"	y	module:GPIO
+level	deps/pigpiox/lib/pigpiox/gpio.ex	/^  @type level :: 0 | 1$/;"	y	module:GPIO
+line_offset	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 line_offset;$/;"	m	struct:gpioline_info	typeref:typename:__u32
+line_offset	deps/circuits_gpio/lib/gpio.ex	/^  @type line_offset() :: non_neg_integer()$/;"	y	module:GPIO
+line_seqno	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 line_seqno;$/;"	m	struct:gpio_v2_line_event	typeref:typename:__u32
+lineoffset	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 lineoffset;$/;"	m	struct:gpioevent_request	typeref:typename:__u32
+lineoffsets	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 lineoffsets[GPIOHANDLES_MAX];$/;"	m	struct:gpiohandle_request	typeref:typename:__u32[]
+lines	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 lines;$/;"	m	struct:gpiochip_info	typeref:typename:__u32
+lines	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 lines;$/;"	m	struct:gpiohandle_request	typeref:typename:__u32
+load	deps/circuits_gpio/c_src/gpio_nif.c	/^static int load(ErlNifEnv *env, void **priv_data, ERL_NIF_TERM info)$/;"	f	typeref:typename:int	file:
+load_nif	deps/circuits_gpio/lib/gpio/gpio_nif.ex	/^  def load_nif() do$/;"	f	module:Nif
+log_location	deps/circuits_gpio/c_src/gpio_nif.c	/^FILE *log_location = NULL;$/;"	v	typeref:typename:FILE *
+make	deps/elixir_make/lib/elixir_make/compiler.ex	/^  def make(config, task_args) do$/;"	f	module:Compiler
+make_env	deps/circuits_gpio/mix.exs	/^  defp make_env() do$/;"	f	module:MixProject
+make_errno_error	deps/circuits_gpio/c_src/nif_utils.c	/^ERL_NIF_TERM make_errno_error(ErlNifEnv *env, int errno_value)$/;"	f	typeref:typename:ERL_NIF_TERM
+make_ok_tuple	deps/circuits_gpio/c_src/nif_utils.c	/^ERL_NIF_TERM make_ok_tuple(ErlNifEnv *env, ERL_NIF_TERM value)$/;"	f	typeref:typename:ERL_NIF_TERM
+make_string_binary	deps/circuits_gpio/c_src/nif_utils.c	/^ERL_NIF_TERM make_string_binary(ErlNifEnv *env, const char *str)$/;"	f	typeref:typename:ERL_NIF_TERM
+mask	deps/circuits_gpio/c_src/linux/gpio.h	/^	__aligned_u64 mask;$/;"	m	struct:gpio_v2_line_config_attribute	typeref:typename:__aligned_u64
+mask	deps/circuits_gpio/c_src/linux/gpio.h	/^	__aligned_u64 mask;$/;"	m	struct:gpio_v2_line_values	typeref:typename:__aligned_u64
+mask	deps/pigpiox/lib/pigpiox/gpio/watcher.ex	/^  defp mask(gpio) do$/;"	f	module:State
+mask	deps/pigpiox/lib/pigpiox/waveform.ex	/^  defp mask(0), do: 0$/;"	f	module:Pulse
+mask	deps/pigpiox/lib/pigpiox/waveform.ex	/^  defp mask(gpio) do$/;"	f	module:Pulse
+maybe_send_notification	deps/circuits_gpio/c_src/hal_stub.c	/^static void maybe_send_notification(ErlNifEnv *env, struct gpio_pin *pin, int value)$/;"	f	typeref:typename:void	file:
+mix_compile	deps/elixir_make/lib/elixir_make/precompiler.ex	/^  def mix_compile(args) do$/;"	f	module:Precompiler
+mode	deps/circuits_gpio/c_src/hal_stub.c	/^    enum trigger_mode mode[NUM_GPIOS];$/;"	m	struct:stub_priv	typeref:enum:trigger_mode[]	file:
+mode	deps/pigpiox/lib/pigpiox/gpio.ex	/^  @type mode :: :input | :output | :alt0 | :alt1 | :alt2 | :alt3 | :alt4 | :alt5$/;"	y	module:GPIO
+name	deps/circuits_gpio/c_src/linux/gpio.h	/^	char name[GPIO_MAX_NAME_SIZE];$/;"	m	struct:gpio_v2_line_info	typeref:typename:char[]
+name	deps/circuits_gpio/c_src/linux/gpio.h	/^	char name[GPIO_MAX_NAME_SIZE];$/;"	m	struct:gpiochip_info	typeref:typename:char[]
+name	deps/circuits_gpio/c_src/linux/gpio.h	/^	char name[GPIO_MAX_NAME_SIZE];$/;"	m	struct:gpioline_info	typeref:typename:char[]
+nif_funcs	deps/circuits_gpio/c_src/gpio_nif.c	/^static ErlNifFunc nif_funcs[] = {$/;"	v	typeref:typename:ErlNifFunc[]	file:
+notify_level_change!	deps/pigpiox/lib/pigpiox/gpio/watcher.ex	/^  defp notify_level_change!(state) do$/;"	f	module:State
+num_attrs	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 num_attrs;$/;"	m	struct:gpio_v2_line_config	typeref:typename:__u32
+num_attrs	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 num_attrs;$/;"	m	struct:gpio_v2_line_info	typeref:typename:__u32
+num_lines	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 num_lines;$/;"	m	struct:gpio_v2_line_request	typeref:typename:__u32
+offset	deps/circuits_gpio/c_src/gpio_nif.h	/^    int offset;$/;"	m	struct:gpio_pin	typeref:typename:int
+offset	deps/circuits_gpio/c_src/hal_cdev_gpio_interrupts.c	/^    int offset;$/;"	m	struct:gpio_monitor_info	typeref:typename:int	file:
+offset	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 offset;$/;"	m	struct:gpio_v2_line_event	typeref:typename:__u32
+offset	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 offset;$/;"	m	struct:gpio_v2_line_info	typeref:typename:__u32
+offsets	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 offsets[GPIO_V2_LINES_MAX];$/;"	m	struct:gpio_v2_line_request	typeref:typename:__u32[]
+open	deps/circuits_gpio/lib/gpio.ex	/^  def open(%{location: gpio_spec}, direction, options) do$/;"	f	module:GPIO
+open	deps/circuits_gpio/lib/gpio.ex	/^  def open(gpio_spec, direction, options)$/;"	f	module:GPIO
+open	deps/circuits_gpio/lib/gpio.ex	/^  def open(gpio_spec_or_line_info, direction, options \\\\ [])$/;"	f	module:GPIO
+open	deps/circuits_gpio/lib/gpio/backend.ex	/^  @callback open($/;"	c	module:Backend
+open	deps/circuits_gpio/lib/gpio/cdev.ex	/^  def open(gpio_spec, direction, options) do$/;"	f	module:CDev
+open	deps/circuits_gpio/lib/gpio/gpio_nif.ex	/^  def open(_gpio_spec, _resolved_gpio_spec, _direction, _initial_value, _pull_mode),$/;"	f	module:Nif
+open	deps/circuits_gpio/lib/gpio/nil_backend.ex	/^  def open(_gpio_spec, _direction, _options) do$/;"	f	module:NilBackend
+open_gpio	deps/circuits_gpio/c_src/gpio_nif.c	/^static ERL_NIF_TERM open_gpio(ErlNifEnv *env, int argc, const ERL_NIF_TERM argv[])$/;"	f	typeref:typename:ERL_NIF_TERM	file:
+open_options	deps/circuits_gpio/lib/gpio.ex	/^  @type open_options() :: [$/;"	y	module:GPIO
+open_port	deps/pigpiox/lib/pigpiox/gpio/watcher.ex	/^  defp open_port(handle) do$/;"	f	module:State
+os_specific_error_msg	deps/elixir_make/lib/elixir_make/compiler.ex	/^  defp os_specific_error_msg(:default) do$/;"	f	module:Compiler
+os_specific_error_msg	deps/elixir_make/lib/elixir_make/compiler.ex	/^  defp os_specific_error_msg(msg) when is_binary(msg) do$/;"	f	module:Compiler
+os_specific_executable	deps/elixir_make/lib/elixir_make/compiler.ex	/^  defp os_specific_executable(:default) do$/;"	f	module:Compiler
+os_specific_executable	deps/elixir_make/lib/elixir_make/compiler.ex	/^  defp os_specific_executable(exec) when is_binary(exec) do$/;"	f	module:Compiler
+otp_cacerts	deps/elixir_make/lib/elixir_make/artefact.ex	/^  defp otp_cacerts do$/;"	f	module:Artefact
+package	deps/circuits_gpio/mix.exs	/^  defp package do$/;"	f	module:MixProject
+package	deps/elixir_make/mix.exs	/^  defp package do$/;"	f	module:Mixfile
+package	deps/pigpiox/mix.exs	/^  defp package do$/;"	f	module:Mixfile
+padding	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 padding;$/;"	m	struct:gpio_v2_line_attribute	typeref:typename:__u32
+padding	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 padding[4]; \/* padding for future use *\/$/;"	m	struct:gpiohandle_config	typeref:typename:__u32[4]
+padding	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 padding[4];$/;"	m	struct:gpio_v2_line_info	typeref:typename:__u32[4]
+padding	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 padding[5]; \/* for future use *\/$/;"	m	struct:gpioline_info_changed	typeref:typename:__u32[5]
+padding	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 padding[5];$/;"	m	struct:gpio_v2_line_config	typeref:typename:__u32[5]
+padding	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 padding[5];$/;"	m	struct:gpio_v2_line_info_changed	typeref:typename:__u32[5]
+padding	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 padding[5];$/;"	m	struct:gpio_v2_line_request	typeref:typename:__u32[5]
+padding	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 padding[6];$/;"	m	struct:gpio_v2_line_event	typeref:typename:__u32[6]
+pass_text	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  defp pass_text({name, :ok}), do: [name, ": ", :green, "PASSED", :reset, "\\n"]$/;"	f	module:Diagnostics
+pass_text	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  defp pass_text({name, {:error, reason}}),$/;"	f	module:Diagnostics
+pid	deps/circuits_gpio/c_src/gpio_nif.h	/^    ErlNifPid pid;$/;"	m	struct:gpio_config	typeref:typename:ErlNifPid
+pid	deps/circuits_gpio/c_src/hal_cdev_gpio_interrupts.c	/^    ErlNifPid pid;$/;"	m	struct:gpio_monitor_info	typeref:typename:ErlNifPid	file:
+pid	deps/circuits_gpio/c_src/hal_stub.c	/^    ErlNifPid pid[NUM_GPIOS];$/;"	m	struct:stub_priv	typeref:typename:ErlNifPid[]	file:
+pins_open	deps/circuits_gpio/c_src/hal_stub.c	/^    atomic_int pins_open;$/;"	m	struct:stub_priv	typeref:typename:atomic_int	file:
+pipe_fds	deps/circuits_gpio/c_src/hal_cdev_gpio.h	/^    int pipe_fds[2];$/;"	m	struct:hal_cdev_gpio_priv	typeref:typename:int[2]
+poller_tid	deps/circuits_gpio/c_src/hal_cdev_gpio.h	/^    ErlNifTid poller_tid;$/;"	m	struct:hal_cdev_gpio_priv	typeref:typename:ErlNifTid
+post_precompile	deps/elixir_make/lib/elixir_make/precompiler.ex	/^  @callback post_precompile() :: :ok$/;"	c	module:Precompiler
+post_precompile_target	deps/elixir_make/lib/elixir_make/precompiler.ex	/^  @callback post_precompile_target(target) :: :ok$/;"	c	module:Precompiler
+pre_release?	deps/elixir_make/lib/mix/tasks/compile.elixir_make.ex	/^  defp pre_release?(version) do$/;"	f	module:ElixirMake
+precompile	deps/elixir_make/lib/elixir_make/precompiler.ex	/^  @callback precompile(OptionParser.argv(), target) :: :ok | {:error, String.t()}$/;"	c	module:Precompiler
+print_verbose_info	deps/elixir_make/lib/elixir_make/compiler.ex	/^  defp print_verbose_info(exec, args) do$/;"	f	module:Compiler
+process_gpio_events	deps/circuits_gpio/c_src/hal_cdev_gpio_interrupts.c	/^static int process_gpio_events(ErlNifEnv *env,$/;"	f	typeref:typename:int	file:
+project	deps/circuits_gpio/mix.exs	/^  def project do$/;"	f	module:MixProject
+project	deps/elixir_make/lib/mix/tasks/compile.elixir_make.ex	/^      def project() do$/;"	f	module:ElixirMake
+project	deps/elixir_make/mix.exs	/^  def project do$/;"	f	module:Mixfile
+project	deps/pigpiox/mix.exs	/^  def project do$/;"	f	module:Mixfile
+project	mix.exs	/^  def project do$/;"	f	module:MixProject
+pull	deps/circuits_gpio/c_src/gpio_nif.h	/^    enum pull_mode pull;$/;"	m	struct:gpio_config	typeref:enum:pull_mode
+pull_mode	deps/circuits_gpio/c_src/gpio_nif.h	/^enum pull_mode {$/;"	g
+pull_mode	deps/circuits_gpio/lib/gpio.ex	/^  @type pull_mode() :: :not_set | :none | :pullup | :pulldown$/;"	y	module:GPIO
+pulse	deps/pigpiox/lib/pigpiox/waveform.ex	/^  @type pulse :: %Pulse{}$/;"	y	module:Pulse
+raise_build_error	deps/elixir_make/lib/elixir_make/compiler.ex	/^  defp raise_build_error(exec, exit_status, error_msg) do$/;"	f	module:Compiler
+raise_unknown_precompiler_type	deps/elixir_make/lib/mix/tasks/compile.elixir_make.ex	/^  defp raise_unknown_precompiler_type(precompiler_type) do$/;"	f	module:ElixirMake
+read	deps/circuits_gpio/lib/gpio.ex	/^  defdelegate read(handle), to: Handle$/;"	d	module:GPIO
+read	deps/circuits_gpio/lib/gpio/cdev.ex	/^    def read(%Circuits.GPIO.CDev{ref: ref}) do$/;"	f	module:CDev
+read	deps/circuits_gpio/lib/gpio/gpio_nif.ex	/^  def read(_gpio), do: :erlang.nif_error(:nif_not_loaded)$/;"	f	module:Nif
+read	deps/circuits_gpio/lib/gpio/handle.ex	/^  def read(handle)$/;"	f	protocol:Handle
+read	deps/pigpiox/lib/pigpiox/gpio.ex	/^  def read(pin) do$/;"	f	module:GPIO
+read2	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  defp read2(gpio) do$/;"	f	module:Diagnostics
+read_gpio	deps/circuits_gpio/c_src/gpio_nif.c	/^static ERL_NIF_TERM read_gpio(ErlNifEnv *env, int argc, const ERL_NIF_TERM argv[])$/;"	f	typeref:typename:ERL_NIF_TERM	file:
+read_map_from_file	deps/elixir_make/lib/elixir_make/artefact.ex	/^  defp read_map_from_file(file) do$/;"	f	module:Artefact
+read_one	deps/circuits_gpio/lib/gpio.ex	/^  def read_one(gpio_spec, options \\\\ []) do$/;"	f	module:GPIO
+read_one2	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  defp read_one2(gpio_spec) do$/;"	f	module:Diagnostics
+refresh_config	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^static int refresh_config(const struct gpio_pin *pin)$/;"	f	typeref:typename:int	file:
+refute_receive	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  defmacrop refute_receive(unexpected, timeout \\\\ 50) do$/;"	a	module:Diagnostics
+release_gpio_pin	deps/circuits_gpio/c_src/gpio_nif.c	/^static void release_gpio_pin(struct gpio_priv *priv, struct gpio_pin *pin)$/;"	f	typeref:typename:void	file:
+remove_listener	deps/circuits_gpio/c_src/hal_cdev_gpio_interrupts.c	/^static void remove_listener(struct gpio_monitor_info *infos, int fd)$/;"	f	typeref:typename:void	file:
+repeat	deps/pigpiox/lib/pigpiox/waveform.ex	/^  def repeat(wave_id) do$/;"	f	module:Pulse
+report	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  def report() do$/;"	f	module:Diagnostics
+report	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  def report(out_gpio_spec, in_gpio_spec) do$/;"	f	module:Diagnostics
+request_line_v2	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^static int request_line_v2(int fd, unsigned int offset, uint64_t flags, int val)$/;"	f	typeref:typename:int	file:
+resolve_gpiochip	deps/circuits_gpio/lib/gpio/cdev.ex	/^  defp resolve_gpiochip({controller, line}) do$/;"	f	module:CDev
+retry_find	deps/circuits_gpio/lib/gpio/cdev.ex	/^  defp retry_find(options, find_fun) do$/;"	f	module:CDev
+run	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  def run(out_gpio_spec, in_gpio_spec) do$/;"	f	module:Diagnostics
+run	deps/elixir_make/lib/mix/tasks/compile.elixir_make.ex	/^  def run(args) do$/;"	f	module:ElixirMake
+run	deps/elixir_make/lib/mix/tasks/elixir_make.checksum.ex	/^  def run(flags) when is_list(flags) do$/;"	f	module:Checksum
+run	deps/elixir_make/lib/mix/tasks/elixir_make.precompile.ex	/^  def run(args) do$/;"	f	module:Precompile
+safe_check	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  defp safe_check(test, out_gpio_spec, in_gpio_spec, options) do$/;"	f	module:Diagnostics
+schedule_next	lib/alternate.ex	/^  def schedule_next(step) do$/;"	f	module:Alternate
+send	deps/pigpiox/lib/pigpiox/waveform.ex	/^  def send(wave_id) do$/;"	f	module:Pulse
+send_gpio_message	deps/circuits_gpio/c_src/gpio_nif.c	/^int send_gpio_message(ErlNifEnv *env,$/;"	f	typeref:typename:int
+seqno	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u32 seqno;$/;"	m	struct:gpio_v2_line_event	typeref:typename:__u32
+set_config_v2	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^static int set_config_v2(int fd, uint64_t flags)$/;"	f	typeref:typename:int	file:
+set_direction	deps/circuits_gpio/c_src/gpio_nif.c	/^static ERL_NIF_TERM set_direction(ErlNifEnv *env, int argc, const ERL_NIF_TERM argv[])$/;"	f	typeref:typename:ERL_NIF_TERM	file:
+set_direction	deps/circuits_gpio/lib/gpio.ex	/^  defdelegate set_direction(handle, direction), to: Handle$/;"	d	module:GPIO
+set_direction	deps/circuits_gpio/lib/gpio/cdev.ex	/^    def set_direction(%Circuits.GPIO.CDev{ref: ref}, direction) do$/;"	f	module:CDev
+set_direction	deps/circuits_gpio/lib/gpio/gpio_nif.ex	/^  def set_direction(_gpio, _direction), do: :erlang.nif_error(:nif_not_loaded)$/;"	f	module:Nif
+set_direction	deps/circuits_gpio/lib/gpio/handle.ex	/^  def set_direction(handle, direction)$/;"	f	protocol:Handle
+set_interrupts	deps/circuits_gpio/c_src/gpio_nif.c	/^static ERL_NIF_TERM set_interrupts(ErlNifEnv *env, int argc, const ERL_NIF_TERM argv[])$/;"	f	typeref:typename:ERL_NIF_TERM	file:
+set_interrupts	deps/circuits_gpio/lib/gpio.ex	/^  defdelegate set_interrupts(handle, trigger, options \\\\ []), to: Handle$/;"	d	module:GPIO
+set_interrupts	deps/circuits_gpio/lib/gpio/cdev.ex	/^    def set_interrupts(%Circuits.GPIO.CDev{ref: ref}, trigger, options) do$/;"	f	module:CDev
+set_interrupts	deps/circuits_gpio/lib/gpio/gpio_nif.ex	/^  def set_interrupts(_gpio, _trigger, _suppress_glitches, _process),$/;"	f	module:Nif
+set_interrupts	deps/circuits_gpio/lib/gpio/handle.ex	/^  def set_interrupts(handle, trigger, options)$/;"	f	protocol:Handle
+set_mode	deps/pigpiox/lib/pigpiox/gpio.ex	/^	def set_mode(pin, mode) when mode in @gpio_modes do$/;"	f	module:GPIO
+set_pull_mode	deps/circuits_gpio/c_src/gpio_nif.c	/^static ERL_NIF_TERM set_pull_mode(ErlNifEnv *env, int argc, const ERL_NIF_TERM argv[])$/;"	f	typeref:typename:ERL_NIF_TERM	file:
+set_pull_mode	deps/circuits_gpio/lib/gpio.ex	/^  defdelegate set_pull_mode(gpio, pull_mode), to: Handle$/;"	d	module:GPIO
+set_pull_mode	deps/circuits_gpio/lib/gpio/cdev.ex	/^    def set_pull_mode(%Circuits.GPIO.CDev{ref: ref}, pull_mode) do$/;"	f	module:CDev
+set_pull_mode	deps/circuits_gpio/lib/gpio/gpio_nif.ex	/^  def set_pull_mode(_gpio, _pull_mode), do: :erlang.nif_error(:nif_not_loaded)$/;"	f	module:Nif
+set_pull_mode	deps/circuits_gpio/lib/gpio/handle.ex	/^  def set_pull_mode(handle, mode)$/;"	f	protocol:Handle
+set_pwm_dutycycle	deps/pigpiox/lib/pigpiox/pwm.ex	/^  defdelegate set_pwm_dutycycle, to: __MODULE__, as: :gpio_pwm$/;"	d	module:Pwm
+set_pwm_frequency	deps/pigpiox/lib/pigpiox/pwm.ex	/^  def set_pwm_frequency(pin, freq) do$/;"	f	module:Pwm
+set_servo_pulsewidth	deps/pigpiox/lib/pigpiox/gpio.ex	/^  def set_servo_pulsewidth(pin, width) when width >= 0 and width <= 2500 do$/;"	f	module:GPIO
+set_value_v2	deps/circuits_gpio/c_src/hal_cdev_gpio.c	/^static int set_value_v2(int fd, int value)$/;"	f	typeref:typename:int	file:
+speed_test	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  def speed_test(gpio_spec) do$/;"	f	module:Diagnostics
+start	deps/pigpiox/lib/pigpiox/application.ex	/^  def start(_type, _args) do$/;"	f	module:Application
+start	lib/start.ex	/^  def start(_type, _args) do$/;"	f	module:Start
+start_link	deps/pigpiox/lib/pigpiox/gpio/watcher.ex	/^  def start_link(gpio, pid) do$/;"	f	module:State
+start_link	deps/pigpiox/lib/pigpiox/gpio/watcher_supervisor.ex	/^  def start_link(_) do$/;"	f	module:WatcherSupervisor
+start_link	deps/pigpiox/lib/pigpiox/port.ex	/^  def start_link(options \\\\ []) do$/;"	f	module:Port
+start_link	deps/pigpiox/lib/pigpiox/socket.ex	/^  def start_link(options \\\\ []) do$/;"	f	module:Socket
+start_link	deps/pigpiox/lib/pigpiox/supervisor.ex	/^  def start_link do$/;"	f	module:Supervisor
+start_link	lib/alternate.ex	/^  def start_link(initial) do$/;"	f	module:Alternate
+start_link	lib/supervisor.ex	/^  def start_link() do$/;"	f	module:Supervisor
+start_pigpiod	deps/pigpiox/lib/pigpiox/port.ex	/^  defp start_pigpiod do$/;"	f	module:Port
+start_timing	deps/circuits_gpio/c_src/gpio_nif.h	/^#define start_timing(/;"	d
+start_watcher	deps/pigpiox/lib/pigpiox/gpio/watcher_supervisor.ex	/^  def start_watcher(gpio, pid) do$/;"	f	module:WatcherSupervisor
+state	deps/pigpiox/lib/pigpiox/socket.ex	/^  @typep state :: :gen_tcp.socket$/;"	y	module:Socket
+status	deps/circuits_gpio/lib/gpio.ex	/^  @type status() :: %{$/;"	y	module:GPIO
+status	deps/circuits_gpio/lib/gpio.ex	/^  def status(gpio_spec) do$/;"	f	module:GPIO
+status	deps/circuits_gpio/lib/gpio/backend.ex	/^  @callback status($/;"	c	module:Backend
+status	deps/circuits_gpio/lib/gpio/cdev.ex	/^  def status(gpio_spec, options \\\\ []) do$/;"	f	module:CDev
+status	deps/circuits_gpio/lib/gpio/gpio_nif.ex	/^  def status(_resolved_gpio_spec), do: :erlang.nif_error(:nif_not_loaded)$/;"	f	module:Nif
+status	deps/circuits_gpio/lib/gpio/nil_backend.ex	/^  def status(_gpio_spec, _options) do$/;"	f	module:NilBackend
+stop	deps/pigpiox/lib/pigpiox/waveform.ex	/^  def stop() do$/;"	f	module:Pulse
+stub_priv	deps/circuits_gpio/c_src/hal_stub.c	/^struct stub_priv {$/;"	s	file:
+suppress_glitches	deps/circuits_gpio/c_src/gpio_nif.h	/^    bool suppress_glitches;$/;"	m	struct:gpio_config	typeref:typename:bool
+target	deps/elixir_make/lib/elixir_make/precompiler.ex	/^  @type target :: String.t()$/;"	y	module:Precompiler
+terminate	deps/pigpiox/lib/pigpiox/gpio/watcher.ex	/^  def terminate(_reason, state) do$/;"	f	module:State
+time_fun2	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  defp time_fun2(times, fun, arg) do$/;"	f	module:Diagnostics
+timestamp	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u64 timestamp;$/;"	m	struct:gpioevent_data	typeref:typename:__u64
+timestamp	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u64 timestamp;$/;"	m	struct:gpioline_info_changed	typeref:typename:__u64
+timestamp_ns	deps/circuits_gpio/c_src/linux/gpio.h	/^	__aligned_u64 timestamp_ns;$/;"	m	struct:gpio_v2_line_event	typeref:typename:__aligned_u64
+timestamp_ns	deps/circuits_gpio/c_src/linux/gpio.h	/^	__aligned_u64 timestamp_ns;$/;"	m	struct:gpio_v2_line_info_changed	typeref:typename:__aligned_u64
+trigger	deps/circuits_gpio/c_src/gpio_nif.h	/^    enum trigger_mode trigger;$/;"	m	struct:gpio_config	typeref:enum:trigger_mode
+trigger	deps/circuits_gpio/c_src/hal_cdev_gpio_interrupts.c	/^    enum trigger_mode trigger;$/;"	m	struct:gpio_monitor_info	typeref:enum:trigger_mode	file:
+trigger	deps/circuits_gpio/lib/gpio.ex	/^  @type trigger() :: :rising | :falling | :both | :none$/;"	y	module:GPIO
+trigger_mode	deps/circuits_gpio/c_src/gpio_nif.h	/^enum trigger_mode {$/;"	g
+unavailable_target	deps/elixir_make/lib/elixir_make/precompiler.ex	/^  @callback unavailable_target(String.t()) :: :compile | :ignore$/;"	c	module:Precompiler
+unload	deps/circuits_gpio/c_src/gpio_nif.c	/^static void unload(ErlNifEnv *env, void *priv_data)$/;"	f	typeref:typename:void	file:
+update_polling_thread	deps/circuits_gpio/c_src/hal_cdev_gpio_interrupts.c	/^int update_polling_thread(struct gpio_pin *pin)$/;"	f	typeref:typename:int
+v0.1.0	deps/circuits_gpio/CHANGELOG.md	/^## v0.1.0$/;"	s	chapter:Changelog
+v0.2.0	deps/circuits_gpio/CHANGELOG.md	/^## v0.2.0$/;"	s	chapter:Changelog
+v0.3.0	deps/circuits_gpio/CHANGELOG.md	/^## v0.3.0$/;"	s	chapter:Changelog
+v0.3.1	deps/circuits_gpio/CHANGELOG.md	/^## v0.3.1$/;"	s	chapter:Changelog
+v0.4.0	deps/circuits_gpio/CHANGELOG.md	/^## v0.4.0$/;"	s	chapter:Changelog
+v0.4.1	deps/circuits_gpio/CHANGELOG.md	/^## v0.4.1$/;"	s	chapter:Changelog
+v0.4.2	deps/circuits_gpio/CHANGELOG.md	/^## v0.4.2$/;"	s	chapter:Changelog
+v0.4.3	deps/circuits_gpio/CHANGELOG.md	/^## v0.4.3$/;"	s	chapter:Changelog
+v0.4.4	deps/circuits_gpio/CHANGELOG.md	/^## v0.4.4$/;"	s	chapter:Changelog
+v0.4.5	deps/circuits_gpio/CHANGELOG.md	/^## v0.4.5$/;"	s	chapter:Changelog
+v0.4.6	deps/circuits_gpio/CHANGELOG.md	/^## v0.4.6$/;"	s	chapter:Changelog
+v0.4.7	deps/circuits_gpio/CHANGELOG.md	/^## v0.4.7$/;"	s	chapter:Changelog
+v0.4.8	deps/circuits_gpio/CHANGELOG.md	/^## v0.4.8$/;"	s	chapter:Changelog
+v0.6.0 (2019-06-10)	deps/elixir_make/CHANGELOG.md	/^## v0.6.0 (2019-06-10)$/;"	s	chapter:Changelog
+v0.6.1 (2020-09-07)	deps/elixir_make/CHANGELOG.md	/^## v0.6.1 (2020-09-07)$/;"	s	chapter:Changelog
+v0.6.2 (2020-12-03)	deps/elixir_make/CHANGELOG.md	/^## v0.6.2 (2020-12-03)$/;"	s	chapter:Changelog
+v0.6.3 (2021-10-19)	deps/elixir_make/CHANGELOG.md	/^## v0.6.3 (2021-10-19)$/;"	s	chapter:Changelog
+v0.7.0 (2022-12-02)	deps/elixir_make/CHANGELOG.md	/^## v0.7.0 (2022-12-02)$/;"	s	chapter:Changelog
+v0.7.1 (2022-12-07)	deps/elixir_make/CHANGELOG.md	/^## v0.7.1 (2022-12-07)$/;"	s	chapter:Changelog
+v0.7.2 (2022-12-14)	deps/elixir_make/CHANGELOG.md	/^## v0.7.2 (2022-12-14)$/;"	s	chapter:Changelog
+v0.7.3 (2022-12-27)	deps/elixir_make/CHANGELOG.md	/^## v0.7.3 (2022-12-27)$/;"	s	chapter:Changelog
+v0.7.4 (2023-02-17)	deps/elixir_make/CHANGELOG.md	/^## v0.7.4 (2023-02-17)$/;"	s	chapter:Changelog
+v0.7.5 (2023-02-18)	deps/elixir_make/CHANGELOG.md	/^## v0.7.5 (2023-02-18)$/;"	s	chapter:Changelog
+v0.7.6 (2023-03-17)	deps/elixir_make/CHANGELOG.md	/^## v0.7.6 (2023-03-17)$/;"	s	chapter:Changelog
+v0.7.7 (2023-06-01)	deps/elixir_make/CHANGELOG.md	/^## v0.7.7 (2023-06-01)$/;"	s	chapter:Changelog
+v0.7.8 (2024-01-17)	deps/elixir_make/CHANGELOG.md	/^## v0.7.8 (2024-01-17)$/;"	s	chapter:Changelog
+v1.0.0 - 2021-10-20	deps/circuits_gpio/CHANGELOG.md	/^## v1.0.0 - 2021-10-20$/;"	s	chapter:Changelog
+v1.0.1 - 2022-7-26	deps/circuits_gpio/CHANGELOG.md	/^## v1.0.1 - 2022-7-26$/;"	s	chapter:Changelog
+v1.1.0 - 2022-12-31	deps/circuits_gpio/CHANGELOG.md	/^## v1.1.0 - 2022-12-31$/;"	s	chapter:Changelog
+v2.0.0 - 2024-01-11	deps/circuits_gpio/CHANGELOG.md	/^## v2.0.0 - 2024-01-11$/;"	s	chapter:Changelog
+v2.0.1 - 2024-01-13	deps/circuits_gpio/CHANGELOG.md	/^## v2.0.1 - 2024-01-13$/;"	s	chapter:Changelog
+v2.0.2 - 2024-01-17	deps/circuits_gpio/CHANGELOG.md	/^## v2.0.2 - 2024-01-17$/;"	s	chapter:Changelog
+value	deps/circuits_gpio/c_src/hal_stub.c	/^    int value[NUM_GPIOS]; \/\/ -1, 0, 1 -> -1=hiZ$/;"	m	struct:stub_priv	typeref:typename:int[]	file:
+value	deps/circuits_gpio/lib/gpio.ex	/^  @type value() :: 0 | 1$/;"	y	module:GPIO
+values	deps/circuits_gpio/c_src/linux/gpio.h	/^		__aligned_u64 values;$/;"	m	union:gpio_v2_line_attribute::__anonf1826ca0010a	typeref:typename:__aligned_u64
+values	deps/circuits_gpio/c_src/linux/gpio.h	/^	__u8 values[GPIOHANDLES_MAX];$/;"	m	struct:gpiohandle_data	typeref:typename:__u8[]
+verify_and_decompress	deps/elixir_make/lib/elixir_make/artefact.ex	/^  def verify_and_decompress(archive_path, app_priv) do$/;"	f	module:Artefact
+verify_and_decompress	deps/elixir_make/lib/elixir_make/artefact.ex	/^  defp verify_and_decompress(basename, archive_path, contents, app_priv) do$/;"	f	module:Artefact
+warn_no_cacerts	deps/elixir_make/lib/elixir_make/artefact.ex	/^  defp warn_no_cacerts do$/;"	f	module:Artefact
+watch	deps/pigpiox/lib/pigpiox/gpio.ex	/^  def watch(pin) do$/;"	f	module:GPIO
+write	deps/circuits_gpio/lib/gpio.ex	/^  defdelegate write(handle, value), to: Handle$/;"	d	module:GPIO
+write	deps/circuits_gpio/lib/gpio/cdev.ex	/^    def write(%Circuits.GPIO.CDev{ref: ref}, value) do$/;"	f	module:CDev
+write	deps/circuits_gpio/lib/gpio/gpio_nif.ex	/^  def write(_gpio, _value), do: :erlang.nif_error(:nif_not_loaded)$/;"	f	module:Nif
+write	deps/circuits_gpio/lib/gpio/handle.ex	/^  def write(handle, value)$/;"	f	protocol:Handle
+write	deps/pigpiox/lib/pigpiox/gpio.ex	/^  def write(pin, level) when level in [0, 1] do$/;"	f	module:GPIO
+write2	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  defp write2(gpio) do$/;"	f	module:Diagnostics
+write_checksums!	deps/elixir_make/lib/elixir_make/artefact.ex	/^  def write_checksums!(checksums) do$/;"	f	module:Artefact
+write_gpio	deps/circuits_gpio/c_src/gpio_nif.c	/^static ERL_NIF_TERM write_gpio(ErlNifEnv *env, int argc, const ERL_NIF_TERM argv[])$/;"	f	typeref:typename:ERL_NIF_TERM	file:
+write_one	deps/circuits_gpio/lib/gpio.ex	/^  def write_one(gpio_spec, value, options \\\\ []) do$/;"	f	module:GPIO
+write_one2	deps/circuits_gpio/lib/gpio/diagnostics.ex	/^  defp write_one2(gpio_spec) do$/;"	f	module:Diagnostics
