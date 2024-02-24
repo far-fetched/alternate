@@ -8,7 +8,7 @@ defmodule Alternate do
 
   def schedule_next do
     IO.puts 'schedule start'
-    Process.send_after(self(), :toggle, 1000)
+    Process.send_after(self(), :toggle, 200)
     IO.puts 'schedule end'
   end
 
@@ -29,7 +29,7 @@ defmodule Alternate do
   @impl true
   def handle_info(:toggle, { value, step }) do
     IO.puts 'state taki:'
-    #IO.puts step
+    IO.puts value
     case value do
       false -> Circuits.GPIO.write(step, 0)
       true -> Circuits.GPIO.write(step, 1)
