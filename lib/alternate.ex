@@ -30,7 +30,11 @@ defmodule Alternate do
   def handle_info(:toggle, { value, step }) do
     IO.puts 'state taki:'
     #IO.puts step
-    Circuits.GPIO.write(step, value)
+    case value do
+      false -> Circuits.GPIO.write(step, 0)
+      true -> Circuits.GPIO.write(step, 1)
+    end
+
     IO.puts 'end'
     schedule_next()
     IO.puts 'after reschedule'
