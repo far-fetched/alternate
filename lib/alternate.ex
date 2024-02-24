@@ -2,13 +2,13 @@ defmodule Alternate do
   use GenServer
 
 
-  def start_link(initial) do
-    GenServer.start_link(__MODULE__, initial)
+  def start_link(_) do
+    GenServer.start_link(__MODULE__, false)
   end
 
-  def schedule_next(step) do
+  def schedule_next do
     IO.puts 'schedule start'
-    Process.send_after(self(), {:toggle, step}, 1000)
+    Process.send_after(self(), :toggle, 200)
     IO.puts 'schedule end'
   end
 
@@ -20,22 +20,24 @@ defmodule Alternate do
     {:ok, step} = Circuits.GPIO.open("GPIO19", :output)
     Circuits.GPIO.write(enable, 1)
     Circuits.GPIO.write(dir, 1)
-    #step = [1]
-    schedule_next(step)
+    schedule_next()
     IO.puts 'init end'
 
-    {:ok, value}
+    {:ok, { value, step }}
   end
 
   @impl true
-  def handle_info({:toggle, step}, state) do
+  def handle_info(:toggle, { value, step }) do
     IO.puts 'state taki:'
-    IO.puts step
-    Circuits.GPIO.write(step, state)
-    IO.puts state
+    IO.puts value
+    case value do
+      false -> Circuits.GPIO.write(step, 0)
+      true -> Circuits.GPIO.write(step, 1)
+    end
+
     IO.puts 'end'
-    schedule_next(step)
+    schedule_next()
     IO.puts 'after reschedule'
-    {:noreply, !state}
+    {:noreply, { !value, step }}
   end
 end
