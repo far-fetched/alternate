@@ -8,7 +8,7 @@ defmodule Alternate do
 
   def schedule_next do
     IO.puts 'schedule start'
-    Process.send_after(self(), :toggle, 5)
+    Process.send_after(self(), :toggle, 500)
     IO.puts 'schedule end'
   end
 
