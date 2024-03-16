@@ -15,21 +15,22 @@ defmodule Alternate do
   @impl true
   def init(value) do
     IO.puts 'init start'
-    schedule_next()
-    IO.puts 'init end'
-    {:ok, value }
-  end
-
-  @impl true
-  def handle_info(:toggle, value) do
-    #IO.puts 'state taki:'
-    IO.puts value
-
     {:ok, enable} = Circuits.GPIO.open("GPIO12", :output)
     {:ok, dir} = Circuits.GPIO.open("GPIO13", :output)
     {:ok, step} = Circuits.GPIO.open("GPIO19", :output)
+
+    schedule_next()
+    IO.puts 'init end'
+    {:ok, { value, enable, dir, step }}
+  end
+
+  @impl true
+  def handle_info(:toggle, { value, enable, dir, step }) do
+    #IO.puts 'state taki:'
+    IO.puts value
+
     Circuits.GPIO.write(enable, 1)
-    Circuits.GPIO.write(dir, 1)
+    Circuits.GPIO.write(dir, value)
 
     Enum.each(0..50, fn(_x) ->
       Circuits.GPIO.write(step, 0)
@@ -40,6 +41,6 @@ defmodule Alternate do
     #IO.puts 'end'
     schedule_next()
     #IO.puts 'after reschedule'
-    {:noreply, !value}
+    {:noreply, { !value, enable, dir, step }}
   end
 end
