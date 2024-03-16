@@ -30,7 +30,7 @@ defmodule Alternate do
     IO.puts value
 
     Circuits.GPIO.write(enable, 1)
-    Circuits.GPIO.write(dir, value)
+    Circuits.GPIO.write(dir, value && 1 || 0)
 
     Enum.each(0..50, fn(_x) ->
       Circuits.GPIO.write(step, 0)
