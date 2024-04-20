@@ -25,6 +25,7 @@ defmodule Alternate do
   def handle_info(:toggle, {data}) do
     IO.puts('data')
     Alternate.GpioService.execute_action("on", 12, data)
+    Alternate.GpioService.execute_action("on", 13, data)
     Alternate.GpioService.execute_action("rising_edge", 19, data)
     #Circuits.GPIO.write(enable, 1)
     #Circuits.GPIO.write(dir, (value && 1) || 0)

@@ -33,12 +33,21 @@ defmodule Alternate.GpioService do
   end
 
   def on(gpio, data) do
-    IO.puts(~c"called on")
-    IO.puts(get_ref_of_gpio(data, gpio))
+    #IO.puts(~c"called on")
+    #IO.puts(get_ref_of_gpio(data, gpio))
+
+    Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 1)
   end
 
   def rising_edge(gpio, data) do
-    IO.puts(~c"called rising_edge")
-    IO.puts(get_ref_of_gpio(data, gpio))
+    #IO.puts(~c"called rising_edge")
+    #IO.puts(get_ref_of_gpio(data, gpio))
+
+    Enum.each(0..50, fn _x ->
+      Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 0)
+      :timer.sleep(2)
+      Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 1)
+      :timer.sleep(2)
+    end)
   end
 end
