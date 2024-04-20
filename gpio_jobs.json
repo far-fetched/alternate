@@ -1,0 +1,20 @@
+{
+  "jobs": [{
+    "interval_sec": 5,
+    "actions": [{
+      "name": "on",
+      "gpio": 12
+    },
+    {
+      "name": "on",
+      "gpio": 13
+    },
+    {
+      "name": "rising_edge",
+      "gpio": 19,
+      "opts": {
+        "step": 50
+      }
+    }]
+  }]
+}
