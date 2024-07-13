@@ -2,7 +2,7 @@ defmodule Alternate.GpioService do
   defp open(gpio_number, :output) do
     case Circuits.GPIO.open("GPIO#{gpio_number}", :output) do
       {:ok, gpio} ->
-        %{gpio: gpio_number, ref: gpio}
+        %{gpio: gpio_number, ref: gpio.ref}
 
       {:error, :not_found} ->
         IO.puts("not pi platform?")
