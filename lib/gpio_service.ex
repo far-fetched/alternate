@@ -2,7 +2,7 @@ defmodule Alternate.GpioService do
   defp open(gpio_number, :output) do
     case Circuits.GPIO.open("GPIO#{gpio_number}", :output) do
       {:ok, gpio} ->
-        %{gpio: gpio_number, ref: gpio.ref}
+        %{gpio: gpio_number, ref: gpio}
 
       {:error, :not_found} ->
         IO.puts("not pi platform?")
@@ -30,21 +30,21 @@ defmodule Alternate.GpioService do
 
   def on(gpio, data) do
     IO.puts(~c"called on")
-    IO.puts(get_ref_of_gpio(data, gpio))
+    #IO.puts(get_ref_of_gpio(data, gpio))
 
-    #Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 1)
+    Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 1)
   end
 
   def rising_edge(gpio, data) do
     IO.puts(~c"called rising_edge")
-    IO.puts(get_ref_of_gpio(data, gpio))
+    #IO.puts(get_ref_of_gpio(data, gpio))
 
-    #Enum.each(0..50, fn _x ->
-      #Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 0)
-      #:timer.sleep(2)
-      #Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 1)
-      #:timer.sleep(2)
-    #end)
+    Enum.each(0..50, fn _x ->
+      Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 0)
+      :timer.sleep(2)
+      Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 1)
+      :timer.sleep(2)
+    end)
   end
 
   def execute_actions(job, gpios) do
