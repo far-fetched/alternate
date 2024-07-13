@@ -15,6 +15,15 @@
                     }
                 }
             ]
+        },
+        {
+            "interval_sec": 2000,
+            "actions": [
+                {
+                    "name": "on",
+                    "gpio": 13
+                }
+            ]
         }
     ]
 }
