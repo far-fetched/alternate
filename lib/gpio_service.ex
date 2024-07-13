@@ -28,26 +28,32 @@ defmodule Alternate.GpioService do
     data |> Enum.find(fn action -> action[:gpio] === gpio end) |> Map.get(:ref)
   end
 
-  def execute_action(action, gpio, data) do
-    apply(__MODULE__, String.to_existing_atom(action), [gpio, data])
-  end
-
   def on(gpio, data) do
-    #IO.puts(~c"called on")
-    #IO.puts(get_ref_of_gpio(data, gpio))
+    IO.puts(~c"called on")
+    IO.puts(get_ref_of_gpio(data, gpio))
 
-    Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 1)
+    #Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 1)
   end
 
   def rising_edge(gpio, data) do
-    #IO.puts(~c"called rising_edge")
-    #IO.puts(get_ref_of_gpio(data, gpio))
+    IO.puts(~c"called rising_edge")
+    IO.puts(get_ref_of_gpio(data, gpio))
 
-    Enum.each(0..50, fn _x ->
-      Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 0)
-      :timer.sleep(2)
-      Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 1)
-      :timer.sleep(2)
+    #Enum.each(0..50, fn _x ->
+      #Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 0)
+      #:timer.sleep(2)
+      #Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 1)
+      #:timer.sleep(2)
+    #end)
+  end
+
+  def execute_actions(job, gpios) do
+    Enum.each(job["actions"], fn action ->
+      execute_action(action["name"], action["gpio"], gpios)
     end)
+  end
+
+  defp execute_action(action, gpio, data) do
+    apply(__MODULE__, String.to_existing_atom(action), [gpio, data])
   end
 end

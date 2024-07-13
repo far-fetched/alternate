@@ -7,8 +7,14 @@ defmodule Alternate.Supervisor do
 
   @impl true
   def init(:ok) do
+    # children = [
+    # Alternate
+    # ]
+
+    # Supervisor.init(children, strategy: :one_for_one)
     children = [
-      Alternate
+      {DynamicSupervisor, name: Alternate.JobSupervisor, strategy: :one_for_one},
+      Alternate.Scheduler
     ]
 
     Supervisor.init(children, strategy: :one_for_one)
