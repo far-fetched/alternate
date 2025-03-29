@@ -41,9 +41,9 @@ defmodule Alternate.GpioService do
 
     Enum.each(0..50, fn _x ->
       Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 0)
-      :timer.sleep(50)
+      :timer.sleep(2)
       Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 1)
-      :timer.sleep(50)
+      :timer.sleep(2)
     end)
   end
 
