@@ -1,7 +1,7 @@
 {
     "jobs": [
         {
-            "interval_sec": 5000,
+            "interval_sec": 7000,
             "actions": [
                 {
                     "name": "on",
