@@ -39,21 +39,7 @@ defmodule Alternate.GpioService do
     IO.puts(~c"called rising_edge")
     #IO.puts(get_ref_of_gpio(data, gpio))
 
-    Enum.each(0..10, fn _x ->
-      Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 0)
-      :timer.sleep(3)
-      Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 1)
-      :timer.sleep(3)
-    end)
-
-    Enum.each(0..20, fn _x ->
-      Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 0)
-      :timer.sleep(2)
-      Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 1)
-      :timer.sleep(2)
-    end)
-
-    Enum.each(0..370, fn _x ->
+    Enum.each(0..400, fn _x ->
       Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 0)
       :timer.sleep(1)
       Circuits.GPIO.write(get_ref_of_gpio(data, gpio), 1)
