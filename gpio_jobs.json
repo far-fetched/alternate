@@ -11,7 +11,7 @@
                     "name": "rising_edge",
                     "gpio": 19,
                     "opts": {
-                        "step": 50
+                        "step": 100
                     }
                 }
             ]
