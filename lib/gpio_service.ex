@@ -186,6 +186,10 @@ defmodule Alternate.GpioService do
     1
   end
 
+  defp my_read(ref) do
+    Circuits.GPIO.read(ref);
+  end
+
   defp my_write(ref, value) when is_binary(ref) do
     IO.puts(~c"call fake write with value")
     IO.inspect(value)
