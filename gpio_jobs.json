@@ -3,12 +3,16 @@
         {
           "scheduler": {
             "type": "interval",
-            "sec": 3000
+            "sec": 5000
           },
           "actions": [
               {
                   "name": "on",
-                  "gpio": 12
+                  "gpio": 17
+              },
+              {
+                  "name": "on",
+                  "gpio": 22
               },
               {
                   "name": "delay",
@@ -18,14 +22,14 @@
               },
               {
                   "name": "wait_for",
-                  "gpio": 3,
+                  "gpio": 27,
                   "opts": {
                       "expected_value": 0
                   }
               },
               {
                   "name": "off",
-                  "gpio": 12
+                  "gpio": 22
               }
           ]
         }
