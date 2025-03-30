@@ -7,7 +7,14 @@ defmodule Alternate.Job do
   end
 
   def dispatch_job(job) do
-    Process.send_after(self(), :toggle, job["interval_sec"])
+    case job["scheduler"]["type"] do
+      "interval" ->
+        IO.puts(~c"schedule interval")
+        Process.send_after(self(), :toggle, job["scheduler"]["sec"])
+
+      "delay" ->
+        Process.send_after(self(), :toggle, 1000)
+    end
   end
 
   @impl true
@@ -21,8 +28,6 @@ defmodule Alternate.Job do
 
   @impl true
   def handle_info(:toggle, {gpios, job}) do
-    IO.puts(~c"toggle")
-
     GpioService.execute_actions(job, gpios)
 
     # Alternate.GpioService.execute_action("on", 12, data)

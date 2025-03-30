@@ -1,20 +1,33 @@
 {
     "jobs": [
         {
-            "interval_sec": 7000,
-            "actions": [
-                {
-                    "name": "on",
-                    "gpio": 12
-                },
-                {
-                    "name": "rising_edge",
-                    "gpio": 19,
-                    "opts": {
-                        "step": 100
-                    }
-                }
-            ]
+          "scheduler": {
+            "type": "interval",
+            "sec": 3000
+          },
+          "actions": [
+              {
+                  "name": "on",
+                  "gpio": 12
+              },
+              {
+                  "name": "delay",
+                  "opts": {
+                      "sec": 1000
+                  }
+              },
+              {
+                  "name": "wait_for",
+                  "gpio": 3,
+                  "opts": {
+                      "expected_value": 0
+                  }
+              },
+              {
+                  "name": "off",
+                  "gpio": 12
+              }
+          ]
         }
     ]
 }
